@@ -1,0 +1,53 @@
+\section{Introduction}
+\label{sec:intro}
+
+\subsection{Motivation}
+\label{sec:motivation}
+
+% What we know
+A growing body of evidence suggests that LLM populations can develop social conventions without explicit programming. \cite{ashery2025} showed that iterative interaction in structured laboratory settings produces spontaneous turn-taking norms, information-sharing protocols, and collective bias in LLM groups. \cite{li2026tsinghua} reported similar phenomena under specific experimental conditions. These findings raise an exciting possibility: that social behavior emerges bottom-up from interaction alone.
+
+% What we don't know
+Yet in open, deployed environments—chat platforms, API-based multi-agent systems, and consumer AI assistants—no such norm emergence has been reliably documented. The Tsinghua Moltbook deployment study \citep{li2026tsinghua} found that 93\% of agents in wild settings produce idiosyncratic, non-convergent outputs with no observable social adaptation across sessions. The same model family that produces rich social behavior in the lab produces isolated, inertia-dominated behavior in the wild.
+
+% The contradiction
+This contradiction—what we call the \textbf{Moltbook Illusion}—is the starting point of our research. If LLM populations can develop social norms in the lab, why don't they develop norms in the wild? Is the difference in the models, or in the environments? And what can we do—through environmental design—to make norm emergence more likely in the systems we deploy?
+
+\subsection{The Moltbook Illusion}
+\label{sec:moltbook-illusion}
+
+The Moltbook Illusion refers to the observation that the same LLM population produces qualitatively different collective behaviors in lab versus wild settings:
+
+\begin{itemize}
+    \item \textbf{Lab settings} (e.g., \cite{ashery2025}): Structured turn-taking, convergent behavioral patterns, evidence of social influence between agents.
+    \item \textbf{Wild settings} (e.g., Tsinghua Moltbook): 93\% non-response rate, no behavioral convergence across rounds, no evidence of social adaptation.
+\end{itemize}
+
+The Moltbook Illusion suggests that the environmental conditions—not the model capabilities—are the determining factor for norm emergence. If correct, this implies that \emph{any} sufficiently capable LLM population could develop norms, provided the environment is correctly designed. If false, it implies that norm emergence requires specific model properties that may be absent in deployed systems.
+
+\subsection{Research Questions}
+\label{sec:rqs}
+
+We investigate the following research questions:
+
+\begin{enumerate}
+    \item \textbf{RQ1}: What environmental variables determine whether social norms emerge in LLM populations, and in what combination?
+    \item \textbf{RQ1a}: Which structural properties of lab environments (structured feedback, communication topology, cooperative framing, population stability) are necessary and sufficient for norm emergence?
+    \item \textbf{RQ1b}: What is the mechanism by which individual inertia (the dominant behavior in wild settings) arises from environmental conditions?
+    \item \textbf{RQ1c}: Is norm emergence primarily determined by a single dominant factor, or by synergistic interactions between multiple environmental variables?
+\end{enumerate}
+
+\subsection{Contributions}
+\label{sec:contributions}
+
+Our paper makes four primary contributions:
+
+\begin{enumerate}
+    \item \textbf{Systematic Factor Analysis.} We present the first fully-crossed factorial experiment varying four environmental factors simultaneously (feedback structure, communication topology, task framing, population stability), enabling both main effect estimation and interaction detection.
+    
+    \item \textbf{Norm Emergence Environmental Model (NEEM).} We introduce a formal framework that predicts norm emergence as a function of environmental configuration. NEEM's central prediction—communication structure as the dominant factor—is validated across all experimental conditions.
+    
+    \item \textbf{Ecological Validation.} We demonstrate that our ``wild-type'' experimental conditions reproduce the Tsinghua Moltbook 93\% non-response baseline, confirming the ecological fidelity of our simulation and the generalizability of lab findings.
+    
+    \item \textbf{Design Implications.} We translate our empirical findings into actionable platform design principles, showing that communication infrastructure produces norm emergence more effectively than model capability upgrades.
+\end{enumerate}

@@ -1,0 +1,69 @@
+
+\section{Methods}
+\label{sec:methods}
+
+We used a fully crossed $2\times2\times2\times2$ factorial design (Table \ref{tab:factors}) with $N$=10 replicates per condition. Additional secondary factor variation (population size, model tier, round count) produced approximately 480 total runs.
+
+\begin{table*}[t]
+\caption{Experimental Factors and Levels}
+\label{tab:factors}
+\vskip 0.12in
+\begin{center}
+\begin{small}
+\begin{tabular}{p{1.4in}p{2.2in}p{2.2in}}
+\hline
+\textbf{Factor} & \textbf{Lab (High)} & \textbf{Wild (Low)} \\
+\hline
+F1: Feedback Loops & Explicit behavioral feedback after each round & No feedback; agents act in isolation \\
+\hline
+F2: Communication Structure & Fixed ring topology; guaranteed delivery & Open broadcast; probabilistic delivery \\
+\hline
+F3: Task Framing & Cooperative: shared goal, positive-sum & Neutral: individual task, no social framing \\
+\hline
+F4: Population Stability & 100\% retention across rounds & 50\% churn per round \\
+\hline
+\end{tabular}
+\end{small}
+\end{center}
+\vskip -0.1in
+\end{table*}
+
+\subsection{Primary Outcome: Behavioral Convergence Score (BCS)}
+\label{sec:bcs}
+
+\begin{equation}
+\text{BCS}(t) = \max_i p_i(t)
+\end{equation}
+
+where $p_i(t)$ is the proportion of agents choosing behavioral category $i$ at round $t$. \textbf{Norm emergence threshold}: $\text{BCS} \geq 0.70$ sustained for $\geq 3$ consecutive rounds.
+
+\section{Methods}
+\label{sec:methods}
+
+We used a $2\times2\times2\times2$ fully crossed factorial design (Table \ref{tab:factors}) with $N$=10 replicates per condition, yielding 160 primary runs. Additional secondary factor variation produced $\approx$480 total runs.
+
+\vskip 6pt
+\begin{table}[h]
+\caption{Experimental Factors and Levels}
+\label{tab:factors}
+\centering
+\begin{tabular}{p{1.2in}p{1.8in}p{1.8in}}
+\hline
+\textbf{Factor} & \textbf{Lab (High)} & \textbf{Wild (Low)} \\
+\hline
+F1: Feedback & Social signal feedback each round & No feedback \\
+F2: Comm. Structure & Ring topology; guaranteed delivery & Open broadcast; probabilistic \\
+F3: Task Framing & Cooperative framing & Neutral framing \\
+F4: Pop. Stability & 100\% retention & 50\% churn/round \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsection{Behavioral Convergence Score (BCS)}
+\begin{equation}
+\text{BCS}(t) = \max_i p_i(t)
+\end{equation}
+BCS $\geq$ 0.70 sustained $\geq$ 3 rounds = norm emergence. All thresholds pre-registered.
+
+\subsection{Statistical Analysis}
+Factorial ANOVA with $\eta^2$ effect sizes. Tukey HSD post-hoc. Bonferroni-Holm correction for H1-H6.

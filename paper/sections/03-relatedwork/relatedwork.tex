@@ -1,0 +1,31 @@
+\section{Related Work}
+\label{sec:related}
+
+\subsection{Norm Emergence in Human and Computational Systems}
+\label{sec:norms-human}
+
+Social norm emergence is a well-studied phenomenon in human societies \cite{bicchieri2005grammar}. The foundational insight is that norms arise from repeated interaction under conditions that make defection costly and cooperation rewarding \cite{ostrom1990governing}. Axelrod's evolutionary simulations demonstrated that ``tit-for-tat'' strategies could become norms through repeated interaction \cite{axelrod1981evolution}, a finding replicated in agent-based computational models \cite{epstein1998learning}.
+
+More recent work has extended norm emergence theory to include \emph{social learning} mechanisms, where agents observe peer behavior and update their own strategies accordingly \cite{bicchieri2017nudge}. The key insight is that behavioral convergence (a precursor to norm emergence) requires that agents have access to information about peer behavior and sufficient incentive to conform.
+
+In human-computer interaction, social translucence theory \cite{erickson1999social} argues that the mere presence of visual and behavioral indicators in a shared digital space is sufficient to induce norm-like behavior in users. This suggests that the \emph{infrastructure} of a digital environment—not explicit rule-making—shapes collective behavior.
+
+\subsection{LLM Populations and Social Conventions}
+\label{sec:norms-llm}
+
+A recent body of work has examined whether LLM populations exhibit social behaviors analogous to human societies. \cite{ashery2025} demonstrated that LLM populations in structured, iterative interaction settings develop behavioral conventions (e.g., turn-taking, information-sharing norms) without explicit programming. Their key finding is that \emph{collective bias emerges from interaction alone}: agents exposed to a population's prior outputs develop preferences that reflect the population's aggregate behavior, not just individual judgment.
+
+The Tsinghua Moltbook study \citep{li2026tsinghua} provides the observational anchor for the wild setting. In a deployment of 1,000+ LLM agents in an open chat environment, they observed that 93\% of agent sessions produced idiosyncratic outputs with no detectable social influence from other agents. Agents did not adapt to peer behavior, did not develop turn-taking patterns, and did not exhibit behavioral convergence over time. Critically, the agents were capable of social behavior in other contexts (as demonstrated in their lab conditions), suggesting that the environmental difference—not a capability difference—explains the behavioral difference.
+
+The MAST failure taxonomy \citep{deepmind2025mast} provides a complementary lens: coordination failure (the absence of norm-based behavioral coordination) is identified as the dominant failure mode in multi-agent LLM systems (36.9\% of failures). Their finding that structural network topology moderates coordination failure aligns with our environmental design hypothesis.
+
+\subsection{Environmental Determinants of Collective Behavior}
+\label{sec:environment}
+
+The question of whether collective behavior is determined by individual properties or environmental conditions has a long history. In organizational theory, Lawrence and Lorsch's foundational work \cite{lawrence1967organization} demonstrated that the same individual actors produce different collective behaviors under different environmental conditions. In cognitive science, Gibson's ecological approach \cite{gibson1979ecological} argues that perception and action are fundamentally situated—that behavior cannot be understood apart from the environment in which it occurs.
+
+Applied to LLM populations, this perspective suggests that norm emergence may be better predicted by environmental characteristics (feedback availability, communication structure, task framing) than by model characteristics (capability, size, architecture). Our paper tests this hypothesis directly through systematic environmental manipulation.
+
+The \emph{Constitutional Evolution} framework \citep{constitutional2026} provides partial support for this view: they show that evolutionary pressure (a form of environmental selection) can discover optimal behavioral strategies in agent populations, independent of individual model capability. This suggests that the environment—through selection pressure—shapes collective outcomes even when individual agents are identical.
+
+Our work extends these prior findings by providing the first systematic experimental comparison of environmental factors in LLM norm emergence, with effect size estimation for each factor individually and in interaction.

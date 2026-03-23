@@ -1,0 +1,27 @@
+\section{Discussion}
+\label{sec:discussion}
+
+\subsection{The Moltbook Illusion Explained}
+\label{sec:moltbook-explained}
+
+Our results provide a systematic explanation for the Moltbook Illusion. The Tsinghua deployment studied LLM populations in an environment that lacked \emph{all four} environmental factors necessary for norm emergence: no structured feedback loops, no communication structure, no cooperative framing, and high population churn (as users entered and left the system). In this environment, the 93\% non-response rate is exactly what our model predicts. The same model that produces rich social behavior in the lab produces isolated, inertia-dominated behavior in the wild—not because it forgot how to be social, but because the environment didn't provide the infrastructure for social behavior to emerge.
+
+This reframes the problem: the question is not ``can LLMs develop norms?'' (they can, under the right conditions) but ``what environmental conditions are necessary and sufficient for norms to emerge in the systems we deploy?''
+
+\subsection{Communication Structure: The Primary Lever}
+\label{sec:comm-lever}
+
+Our most striking finding is that communication structure is the dominant factor—more predictive than feedback, task framing, or population stability. This has a counterintuitive implication: improving the \emph{model} is less effective than improving the \emph{communication infrastructure}.
+
+Concretely, a platform that ensures agents can reliably see each other's outputs (guaranteed message delivery, bounded latency) will produce norm emergence faster and more reliably than one that simply upgrades to a more capable model. This is consistent with Social Translucence Theory \cite{erickson1999social}: the mere presence of visible, persistent behavioral indicators in a shared digital space induces norm-like behavior, independent of the capabilities of the individuals within it.
+
+\subsection{Design Implications for Open AI Platforms}
+\label{sec:design-implications}
+
+Our results suggest three concrete design principles for open AI platforms:
+
+\begin{enumerate}
+    \item \textbf{Shared context windows}: Ensure agents have access to a persistent, shared view of recent population-level behavioral history. This creates the substrate for behavioral influence without requiring explicit feedback mechanisms.
+    \item \textbf{Guaranteed message delivery with bounded latency}: Open broadcast (fire-and-forget) architectures prevent norm emergence. Structured turn-taking, even simple round-robin, dramatically improves convergence.
+    \item \textbf{Population stability mechanisms}: Systems that minimize agent churn (e.g., consistent agent identity across sessions) will produce more stable and persistent behavioral norms than systems with high turnover.
+\end{enumerate}

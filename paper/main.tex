@@ -1,0 +1,46 @@
+\documentclass[sigconf]{acmart}
+
+%% Meta information (for review - anonymous)
+\title{Environmental Determinants of Norm Emergence in Large Language Model Populations}
+%\titlenote{Anonymous for review}
+\subtitle{Why Social Norms Appear in Lab Experiments but Disappear in the Wild}
+
+%% Authors (for review - anonymous)
+\author{Brian Leixia}
+\affiliation{%
+  \institution{Hong Kong Baptist University}
+  \city{Hong Kong}
+  \country{China}}
+\email{brian@hkbuae.edu}
+
+%% For CHI - use the correct date
+\date{April 2026}
+
+%% Abstract
+\begin{abstract}
+Despite evidence that large language model (LLM) populations spontaneously develop social conventions in controlled lab settings, no such emergence has been observed in open, deployed environments. This stark contradiction—what we term the \emph{Moltbook Illusion}—suggests that norm emergence is not an intrinsic property of LLM populations but rather an \emph{environmental engineering outcome}. We present a 2$\times$2$\times$2$\times$2 factorial experiment ($N$=480 runs) systematically varying four environmental factors (feedback loops, communication structure, task framing, and population stability) to identify which environmental variables are necessary and sufficient for norm emergence. Our results show that communication structure is the dominant factor (largest effect size), while feedback loops are necessary but not sufficient. Wild-type environments (no structure) reproduce the 93\% non-response inertia observed in real-world deployments. We present the \textbf{Norm Emergence Environmental Model (NEEM)}: a framework that predicts norm emergence as a function of environmental design, not model capability. NEEM has direct implications for the design of open AI platforms, suggesting that communication infrastructure—not better models—is the primary lever for engineering prosocial AI behavior.
+\end{abstract}
+
+%% CCS Concepts
+\keywords{norm emergence, multi-agent LLMs, social conventions, environmental design, HCI, CHI}
+
+\begin{document}
+
+%% Front matter
+\maketitle
+
+%% Sections
+\input{sections/01-abstract/abstract.tex}
+\input{sections/02-intro/intro.tex}
+\input{sections/03-relatedwork/relatedwork.tex}
+\input{sections/04-methods/methods.tex}
+\input{sections/05-results/results.tex}
+\input{sections/06-discussion/discussion.tex}
+\input{sections/07-limitations/limitations.tex}
+\input{sections/08-conclusion/conclusion.tex}
+
+%% Bibliography
+\bibliography{references}
+\bibliographystyle{ACM-Reference-Format}
+
+\end{document}
