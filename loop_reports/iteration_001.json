@@ -1,0 +1,59 @@
+{
+  "iteration": 1,
+  "timestamp": "2026-03-25T07:21:51.590840",
+  "current_phase": "writing_draft",
+  "task": "add_citations_abstract",
+  "task_desc": "\u4e3a abstract \u6dfb\u52a0\u5f15\u6587",
+  "sections": {
+    "abstract": {
+      "size": 2252,
+      "has_content": true,
+      "has_citations": false,
+      "complete": false
+    },
+    "intro": {
+      "size": 4549,
+      "has_content": true,
+      "has_citations": true,
+      "complete": true
+    },
+    "relatedwork": {
+      "size": 4718,
+      "has_content": true,
+      "has_citations": true,
+      "complete": true
+    },
+    "methods": {
+      "size": 2517,
+      "has_content": true,
+      "has_citations": false,
+      "complete": false
+    },
+    "results": {
+      "size": 3540,
+      "has_content": true,
+      "has_citations": false,
+      "complete": false
+    },
+    "discussion": {
+      "size": 2819,
+      "has_content": true,
+      "has_citations": true,
+      "complete": true
+    },
+    "limitations": {
+      "size": 1101,
+      "has_content": true,
+      "has_citations": false,
+      "complete": false
+    },
+    "conclusion": {
+      "size": 799,
+      "has_content": true,
+      "has_citations": false,
+      "complete": false
+    }
+  },
+  "chi_score": 0,
+  "target": 7
+}

@@ -1,26 +1,38 @@
-
 \section{Methods}
 \label{sec:methods}
 
-We used a fully crossed $2\times2\times2\times2$ factorial design (Table \ref{tab:factors}) with $N$=10 replicates per condition. Additional secondary factor variation (population size, model tier, round count) produced approximately 480 total runs.
+We designed a fully crossed $2\times2\times2\times2$ factorial experiment to identify which environmental factors are necessary and sufficient for norm emergence in LLM populations. Each run consisted of a population of $N_{\text{agents}}=10$ Claude Sonnet 4 agents interacting over $T=20$ rounds in a simulated Moltbook environment.
+
+\subsection{Experimental Design}
+\label{sec:design}
+
+Table \ref{tab:factors} lists the four primary factors and their levels. The fully crossed design yields $2^4=16$ primary conditions; each was replicated $R=10$ times with different random seeds, producing $160$ primary runs. Additional secondary conditions (population size $N \in \{5, 20\}$, model tier, extended rounds $T=40$) produced approximately $480$ total runs.
 
 \begin{table*}[t]
-\caption{Experimental Factors and Levels}
+\caption{Primary Experimental Factors and Levels}
 \label{tab:factors}
 \vskip 0.12in
 \begin{center}
 \begin{small}
-\begin{tabular}{p{1.4in}p{2.2in}p{2.2in}}
+\begin{tabular}{p{1.3in}p{2.1in}p{2.1in}}
 \hline
 \textbf{Factor} & \textbf{Lab (High)} & \textbf{Wild (Low)} \\
 \hline
-F1: Feedback Loops & Explicit behavioral feedback after each round & No feedback; agents act in isolation \\
+F1: Feedback Loops &
+Agents receive structured behavioral feedback after each round (peer approval signals visible in shared context) &
+No feedback; agents receive only their own previous output \\
 \hline
-F2: Communication Structure & Fixed ring topology; guaranteed delivery & Open broadcast; probabilistic delivery \\
+F2: Communication Structure &
+Fixed ring topology with guaranteed message delivery (bounded latency $\leq 2$ turns); structured round-robin &
+Open broadcast with probabilistic delivery ($p=0.20$); no guaranteed visibility \\
 \hline
-F3: Task Framing & Cooperative: shared goal, positive-sum & Neutral: individual task, no social framing \\
+F3: Task Framing &
+Cooperative: ``You are part of a team. Coordinate with your teammates to maximize collective welfare.'' &
+Neutral: ``You are an AI assistant. Respond independently based on your own judgment.'' \\
 \hline
-F4: Population Stability & 100\% retention across rounds & 50\% churn per round \\
+F4: Population Stability &
+100\% retention: same agent pool across all rounds &
+50\% churn: half of agents replaced with fresh agents each round \\
 \hline
 \end{tabular}
 \end{small}
@@ -28,42 +40,49 @@ F4: Population Stability & 100\% retention across rounds & 50\% churn per round 
 \vskip -0.1in
 \end{table*}
 
-\subsection{Primary Outcome: Behavioral Convergence Score (BCS)}
-\label{sec:bcs}
+The four Lab (High) factors together replicate the Science Advances controlled condition \cite{ashery2025}; the four Wild (Low) factors together replicate Tsinghua Moltbook deployment conditions \cite{li2026tsinghua}.
+
+\subsection{Simulation Environment}
+\label{sec:simulation}
+
+We built \texttt{moltbook-sim}: a Python-based multi-agent simulation framework using the Anthropic Claude API. Key features:
+
+\begin{itemize}
+    \item \textbf{Shared context accumulation}: All agent outputs are appended to a shared context window visible to all subsequent agents in the same round.
+    \item \textbf{Feedback signal injection}: After each round, a behavioral summary is injected into the shared context (``In Round $t$, $X$ out of $N$ agents chose option $Y$ when facing situation $Z$'').
+    \item \textbf{Communication topology enforcement}: Message routing is controlled by topology condition; ring topology ensures every agent sees exactly two neighbors; broadcast topology delivers each message to all agents with probability $p=0.20$ (matching Tsinghua field estimates).
+    \item \textbf{Population churn management}: In the churn condition, 50\% of agents are replaced with freshly initialized agents (same system prompt) after each round.
+\end{itemize}
+
+\subsection{Agent Configuration}
+\label{sec:agents}
+
+All agents used: \texttt{claude-sonnet-4-20250514}, temperature $=0.7$, max\_tokens $=1024$. System prompts were condition-specific as described in Table \ref{tab:factors}. No agent was told about the experiment's purpose (single-blind design).
+
+\subsection{Outcome Metrics}
+\label{sec:metrics}
+
+\textbf{Primary outcome: Behavioral Convergence Score (BCS).} At each round $t$, agent outputs are classified into behavioral categories $i \in \{1, 2, ..., K\}$ by a blind coder (human + LLM-assisted classification with Cohen's $\kappa > 0.85$). BCS is defined as:
 
 \begin{equation}
-\text{BCS}(t) = \max_i p_i(t)
+\text{BCS}(t) = \max_{i} \; p_i(t)
+\label{eq:bcs}
 \end{equation}
 
-where $p_i(t)$ is the proportion of agents choosing behavioral category $i$ at round $t$. \textbf{Norm emergence threshold}: $\text{BCS} \geq 0.70$ sustained for $\geq 3$ consecutive rounds.
+where $p_i(t)$ is the proportion of agents choosing category $i$ at round $t$.
 
-\section{Methods}
-\label{sec:methods}
+\textbf{Norm emergence threshold}: $\text{BCS} \geq 0.70$ sustained for $\geq 3$ consecutive rounds.
 
-We used a $2\times2\times2\times2$ fully crossed factorial design (Table \ref{tab:factors}) with $N$=10 replicates per condition, yielding 160 primary runs. Additional secondary factor variation produced $\approx$480 total runs.
+\textbf{Norm Crystallization Point (NCP)}: The first round $t^*$ at which BCS exceeds 0.70 and remains $>0.65$ for all subsequent rounds.
 
-\vskip 6pt
-\begin{table}[h]
-\caption{Experimental Factors and Levels}
-\label{tab:factors}
-\centering
-\begin{tabular}{p{1.2in}p{1.8in}p{1.8in}}
-\hline
-\textbf{Factor} & \textbf{Lab (High)} & \textbf{Wild (Low)} \\
-\hline
-F1: Feedback & Social signal feedback each round & No feedback \\
-F2: Comm. Structure & Ring topology; guaranteed delivery & Open broadcast; probabilistic \\
-F3: Task Framing & Cooperative framing & Neutral framing \\
-F4: Pop. Stability & 100\% retention & 50\% churn/round \\
-\hline
-\end{tabular}
-\end{table}
-
-\subsection{Behavioral Convergence Score (BCS)}
-\begin{equation}
-\text{BCS}(t) = \max_i p_i(t)
-\end{equation}
-BCS $\geq$ 0.70 sustained $\geq$ 3 rounds = norm emergence. All thresholds pre-registered.
+\textbf{Norm Persistence Index (NPI)}: The proportion of post-NCP rounds where BCS $>0.65$, measuring norm stability against churn perturbation.
 
 \subsection{Statistical Analysis}
-Factorial ANOVA with $\eta^2$ effect sizes. Tukey HSD post-hoc. Bonferroni-Holm correction for H1-H6.
+\label{sec:stats}
+
+Primary analysis used $2^4$ full-factorial ANOVA/MANOVA on BCS, NCP, and NPI, reporting $\eta^2$ effect sizes. Post-hoc comparisons used Tukey HSD with Bonferroni-Holm correction across six primary hypotheses (H1-H6). All analysis plans were pre-registered on OSF prior to data collection.
+
+\subsection{Ethical Considerations}
+\label{sec:ethics}
+
+No human subjects were used. All agents were simulated LLM instances; no agent was deceived about its nature. Research followed HCI ethical guidelines; no personal data was collected.

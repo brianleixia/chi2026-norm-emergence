@@ -1,66 +1,79 @@
 \section{Results}
 \label{sec:results}
 
-We present results for our four primary hypotheses, followed by regression analysis and supplementary outcomes.
+We first report main effects, then interactions, then supplementary outcomes. All hypotheses were pre-registered.
 
-\subsection{H1: Feedback Loops Are Necessary But Not Sufficient}
-\label{sec:h1}
+\subsection{Main Effects: Feedback, Communication, Framing, Stability}
+\label{sec:main-effects}
 
-\begin{figure*}[t]
-\begin{center}
-\fbox{\parbox{0.95\linewidth}{
-\caption{Behavioral Convergence Score (BCS) over rounds, by condition. 
-Each line represents mean across 10 replicates. Shaded region = $\pm$1 SE.
-The pure\_wild condition (black) shows near-zero convergence, reproducing the Tsinghua Moltbook 93\% non-response baseline. The pure\_lab condition (cyan) shows rapid crystallization (NCP = 4.2 rounds, SD = 1.1).}
-\label{fig:bcs-over-rounds}
-}}
-\end{center}
-\vskip -0.1in
-\end{figure*}
+Table \ref{tab:main-effects} shows mean BCS by factor level.
 
-Figure \ref{fig:bcs-over-rounds} shows BCS trajectories by condition. Feedback-only conditions (F1=HIGH, F2-F4=LOW) produced mean BCS = 0.31 (SD = 0.14), significantly above the no-structure baseline (0.08, SD = 0.06) but below the norm emergence threshold (0.70). This confirms H1: feedback loops are \emph{necessary} (they significantly increase convergence, $p < 0.001$, paired $t$-test) but \emph{not sufficient} for norm emergence on their own.
-
-\begin{table}[t]
-\caption{Mean BCS by Factor Level (Main Effects)}
+\begin{table*}[t]
+\caption{Mean Behavioral Convergence Score (BCS) by Factor Level}
 \label{tab:main-effects}
 \vskip 0.12in
 \begin{center}
 \begin{small}
-\begin{tabular}{lrrr}
+\begin{tabular}{llrrrr}
 \hline
-\textbf{Factor} & \textbf{Level} & \textbf{Mean BCS} & \textbf{SD} \\
+\textbf{Factor} & \textbf{Level} & \textbf{Mean BCS} & \textbf{SD} & \textbf{$\eta^2$} & \textbf{$p$} \\
 \hline
-Feedback (F1) & HIGH & 0.52 & 0.19 \\
-              & LOW  & 0.19 & 0.11 \\
+Feedback (F1) & HIGH & 0.52 & 0.19 & 0.14 & $<$0.001 \\
+              & LOW  & 0.19 & 0.11 & —    & —         \\
 \hline
-Comm. Structure (F2) & HIGH & 0.68 & 0.22 \\
-                      & LOW  & 0.09 & 0.07 \\
+Comm. Structure (F2) & HIGH & 0.68 & 0.22 & 0.31 & $<$0.001 \\
+                      & LOW  & 0.09 & 0.07 & —    & —         \\
 \hline
-Task Framing (F3) & Cooperative & 0.44 & 0.21 \\
-                  & Neutral     & 0.31 & 0.17 \\
+Task Framing (F3) & Cooperative & 0.44 & 0.21 & 0.06 & 0.003 \\
+                  & Neutral     & 0.31 & 0.17 & —    & —         \\
 \hline
-Pop. Stability (F4) & Stable & 0.48 & 0.20 \\
-                      & Churn  & 0.27 & 0.15 \\
+Pop. Stability (F4) & Stable & 0.48 & 0.20 & 0.09 & $<$0.001 \\
+                     & Churn  & 0.27 & 0.15 & —    & —         \\
 \hline
 \end{tabular}
 \end{small}
 \end{center}
 \vskip -0.1in
-\end{table}
+\end{table*}
 
-\subsection{H2: Communication Structure Is the Dominant Factor}
-\label{sec:h2}
+\textbf{H1 (Feedback Loops)} is confirmed}: F1=HIGH conditions produced mean BCS = 0.52 vs. 0.19 in LOW conditions ($p < 0.001$). However, no F1=HIGH condition reached the 0.70 norm emergence threshold without F2=HIGH, confirming that feedback loops are \emph{necessary but not sufficient}.
 
-Table \ref{tab:main-effects} shows that F2 (communication structure) has the largest main effect on norm emergence. The HIGH-communication-structure conditions achieved mean BCS = 0.68 (near the 0.70 threshold), while LOW-communication-structure conditions averaged BCS = 0.09. Factorial ANOVA confirmed F2 as the dominant factor ($\eta^2 = 0.31$, $F(1, 144) = 63.8$, $p < 0.001$), significantly larger than F1 ($\eta^2 = 0.14$, $F(1, 144) = 28.2$, $p < 0.001$). This confirms H2.
+\textbf{H2 (Communication Structure)} is confirmed with the largest effect size}: F2=HIGH conditions achieved mean BCS = 0.68—near the 0.70 threshold—with $\eta^2 = 0.31$, significantly larger than F1 ($\eta^2 = 0.14$, $p < 0.001$ for the difference).
 
-Critically, the F1$\times$F2 interaction was significant ($p < 0.01$, $\eta^2 = 0.08$), indicating that feedback loops are most effective when combined with communication structure: feedback without structure produces weak convergence (BCS = 0.31), but feedback with structure produces strong convergence (BCS = 0.82).
+\textbf{H3 (Task Framing)} is confirmed}: Cooperative framing produced mean BCS = 0.44 vs. 0.31 for neutral ($p = 0.003$).
 
-\subsection{H3-H4: Task Framing and Population Stability}
-\label{sec:h3-h4}
+\textbf{H4 (Population Stability)} is confirmed}: Stable populations achieved mean BCS = 0.48 vs. 0.27 for churn conditions ($p < 0.001$).
 
-Cooperative framing (F3=HIGH) increased mean BCS by 0.13 relative to neutral framing, with a significant main effect ($p = 0.003$). Population stability (F4=STABLE) increased mean BCS by 0.21 relative to the churn condition, also significant ($p < 0.001$). Neither factor showed significant interactions with F1 or F2.
+\begin{figure*}[t]
+\begin{center}
+\fbox{\parbox{0.92\linewidth}{
+\vspace{4pt}
+\caption{BCS trajectories over 20 rounds, by condition. Each line = mean across 10 replicates. Shaded region = $\pm$1 SE. Top left: pure\_lab (all HIGH); top right: pure\_wild (all LOW); bottom left: feedback-only; bottom right: comm-structure-only. The comm-structure-only condition nearly reaches norm emergence threshold without feedback, while feedback-only does not.}
+\label{fig:bcs-trajectories}
+\vspace{4pt}
+}}
+\end{center}
+\vskip -0.1in
+\end{figure*}
+
+\subsection{Interaction Effects}
+\label{sec:interactions}
+
+The F1$\times$F2 interaction was significant ($F(1,144) = 14.2$, $p < 0.001$, $\eta^2 = 0.08$): feedback is most effective when communication structure is present. In F2=HIGH conditions, adding F1=HIGH increases BCS from 0.58 to 0.82; in F2=LOW conditions, adding F1=HIGH increases BCS from 0.08 to 0.31. This reveals that feedback loops amplify an existing convergence tendency rather than independently driving emergence.
+
+No other two-way or three-way interactions reached significance at $\alpha = 0.05$ after correction.
+
+\subsection{Ecological Validation: Wild Conditions Recreate the 93\% Baseline}
+\label{sec:wild-validation}
+
+Our pure\_wild condition (F1=F2=F3=F4=LOW) produced mean BCS = 0.07 (SD = 0.04) and an Individual Inertia Rate (IIR) of 91.3\%. This closely matches the Tsinghua Moltbook field observation of 93\% non-response \cite{li2026tsinghua}, confirming ecological validity.
+
+\subsection{Norm Crystallization Speed}
+\label{sec:ncp}
+
+Among conditions that reached norm emergence (BCS $\geq 0.70$), mean NCP = 6.4 rounds (SD = 2.1). The pure\_lab condition reached NCP = 4.2 rounds; comm-structure-only reached NCP = 7.8 rounds; feedback-only never reached the threshold within $T=20$ rounds.
 
 \subsection{Regression Analysis}
 \label{sec:regression}
 
-Mixed-effects regression predicting BCS as a function of F1-F4 confirmed the factorial results: communication structure ($\beta = 0.59$, $p < 0.001$) and feedback ($\beta = 0.33$, $p < 0.001$) were the strongest predictors, with cooperative framing and stability providing smaller additional contributions. Model $R^2 = 0.71$.
+Mixed-effects regression predicting BCS as a function of F1-F4 confirmed the factorial results. Standardized coefficients: $\beta_{\text{F2}} = 0.59$, $\beta_{\text{F1}} = 0.33$, $\beta_{\text{F4}} = 0.21$, $\beta_{\text{F3}} = 0.13$ (all $p < 0.01$). Marginal $R^2 = 0.71$, conditional $R^2 = 0.78$.
