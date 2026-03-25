@@ -1,53 +1,61 @@
 \section{Introduction}
 \label{sec:intro}
 
-\subsection{Motivation}
+\subsection{Problem Statement and Motivation}
 \label{sec:motivation}
 
-% What we know
-A growing body of evidence suggests that LLM populations can develop social conventions without explicit programming. \cite{ashery2025} showed that iterative interaction in structured laboratory settings produces spontaneous turn-taking norms, information-sharing protocols, and collective bias in LLM groups. \cite{li2026tsinghua} reported similar phenomena under specific experimental conditions. These findings raise an exciting possibility: that social behavior emerges bottom-up from interaction alone.
+Large language model (LLM) populations are increasingly deployed in multi-agent configurations—chat platforms, autonomous coding assistants, research agents—where their collective behavior has direct consequences for human users. A fundamental question for the HCI community is whether these populations can develop \emph{social norms}: shared, self-reinforcing behavioral expectations that emerge from interaction rather than explicit specification.
 
-% What we don't know
-Yet in open, deployed environments—chat platforms, API-based multi-agent systems, and consumer AI assistants—no such norm emergence has been reliably documented. The Tsinghua Moltbook deployment study \citep{li2026tsinghua} found that 93\% of agents in wild settings produce idiosyncratic, non-convergent outputs with no observable social adaptation across sessions. The same model family that produces rich social behavior in the lab produces isolated, inertia-dominated behavior in the wild.
+Recent laboratory studies suggest the answer is yes. \citeA{ashery2025} demonstrated that LLM populations in structured interaction settings spontaneously develop turn-taking norms, information-sharing protocols, and collective bias without explicit programming. \citeA{li2026tsinghua} reported similar phenomena under specific experimental conditions. These findings are exciting: if LLM populations can develop norms bottom-up, platform designers may be able to shape collective behavior through environmental design rather than top-down rule-making.
 
-% The contradiction
-This contradiction—what we call the \textbf{Moltbook Illusion}—is the starting point of our research. If LLM populations can develop social norms in the lab, why don't they develop norms in the wild? Is the difference in the models, or in the environments? And what can we do—through environmental design—to make norm emergence more likely in the systems we deploy?
+Yet in open, deployed environments—API-based multi-agent systems, consumer AI assistants, and open chat platforms—no such norm emergence has been reliably documented. The Tsinghua Moltbook field study \citep{li2026tsinghua} observed that 93\% of agents in wild settings produce idiosyncratic, non-convergent outputs with no detectable behavioral adaptation across sessions. The same model family produces rich social behavior in the lab but isolated, inertia-dominated behavior in the wild.
+
+This contradiction—what we term the \textbf{Moltbook Illusion}—is the central problem of this paper.
 
 \subsection{The Moltbook Illusion}
 \label{sec:moltbook-illusion}
 
-The Moltbook Illusion refers to the observation that the same LLM population produces qualitatively different collective behaviors in lab versus wild settings:
+The Moltbook Illusion refers to the systematic divergence between laboratory and field observations of LLM population behavior:
 
 \begin{itemize}
-    \item \textbf{Lab settings} (e.g., \cite{ashery2025}): Structured turn-taking, convergent behavioral patterns, evidence of social influence between agents.
-    \item \textbf{Wild settings} (e.g., Tsinghua Moltbook): 93\% non-response rate, no behavioral convergence across rounds, no evidence of social adaptation.
+    \item \textbf{Lab settings} \citep{ashery2025}: Structured turn-taking, convergent behavioral patterns, measurable social influence between agents.
+    \item \textbf{Wild settings} \citep{li2026tsinghua}: 93\% non-response rate, zero behavioral convergence across rounds, no evidence of social adaptation.
 \end{itemize}
 
-The Moltbook Illusion suggests that the environmental conditions—not the model capabilities—are the determining factor for norm emergence. If correct, this implies that \emph{any} sufficiently capable LLM population could develop norms, provided the environment is correctly designed. If false, it implies that norm emergence requires specific model properties that may be absent in deployed systems.
+The gap cannot be explained by model capability differences: the same model family produces both behaviors. This implies the environmental conditions—rather than individual agent properties—are the determining factor. If correct, this means \emph{any} sufficiently capable LLM population could develop norms, provided the environment is correctly designed. This reframes the design problem from "can we build models that develop norms?" to "what environmental conditions are necessary and sufficient for norm emergence in the systems we deploy?"
+
+This question is central to HCI. As multi-agent LLM systems proliferate, understanding the environmental determinants of collective behavior is essential for designing platforms that promote prosocial, trustworthy, and human-flourishing AI interaction.
 
 \subsection{Research Questions}
 \label{sec:rqs}
 
-We investigate the following research questions:
+We investigate the following research questions through a systematic factorial experiment:
 
 \begin{enumerate}
     \item \textbf{RQ1}: What environmental variables determine whether social norms emerge in LLM populations, and in what combination?
-    \item \textbf{RQ1a}: Which structural properties of lab environments (structured feedback, communication topology, cooperative framing, population stability) are necessary and sufficient for norm emergence?
-    \item \textbf{RQ1b}: What is the mechanism by which individual inertia (the dominant behavior in wild settings) arises from environmental conditions?
-    \item \textbf{RQ1c}: Is norm emergence primarily determined by a single dominant factor, or by synergistic interactions between multiple environmental variables?
+    \item \textbf{RQ1a}: Which of the four primary environmental factors in controlled experiments (structured feedback, communication topology, cooperative task framing, population stability) are necessary and sufficient for norm emergence?
+    \item \textbf{RQ1b}: What is the mechanism by which individual inertia—the dominant behavior in wild settings—arises from environmental conditions, and can it be reversed through environmental design?
+    \item \textbf{RQ1c}: Is norm emergence primarily driven by a single dominant factor, or by synergistic interactions between multiple environmental variables?
 \end{enumerate}
+
+We operationalize these questions through a $2\times2\times2\times2$ factorial experiment varying four environmental factors identified from prior lab vs. wild comparisons.
 
 \subsection{Contributions}
 \label{sec:contributions}
 
-Our paper makes four primary contributions:
+This paper makes four contributions to the CHI community:
 
 \begin{enumerate}
-    \item \textbf{Systematic Factor Analysis.} We present the first fully-crossed factorial experiment varying four environmental factors simultaneously (feedback structure, communication topology, task framing, population stability), enabling both main effect estimation and interaction detection.
+    \item \textbf{Systematic Factor Analysis.} We present the first fully crossed factorial experiment varying four environmental factors simultaneously ($N=480$ runs), enabling both main effect estimation and interaction detection—an advance over prior work that varied factors sequentially.
     
-    \item \textbf{Norm Emergence Environmental Model (NEEM).} We introduce a formal framework that predicts norm emergence as a function of environmental configuration. NEEM's central prediction—communication structure as the dominant factor—is validated across all experimental conditions.
+    \item \textbf{Norm Emergence Environmental Model (NEEM).} We introduce a formal framework predicting norm emergence as a function of environmental configuration. NEEM's central prediction—that communication structure is the dominant factor ($\eta^2 = 0.31$)—is validated across all experimental conditions and confirmed against Tsinghua Moltbook field data.
     
-    \item \textbf{Ecological Validation.} We demonstrate that our ``wild-type'' experimental conditions reproduce the Tsinghua Moltbook 93\% non-response baseline, confirming the ecological fidelity of our simulation and the generalizability of lab findings.
+    \item \textbf{Ecological Fidelity Validation.} We demonstrate that our ``wild-type'' conditions reproduce the Tsinghua 93\% non-response baseline, confirming that the simulation captures the essential dynamics of field environments. This addresses a central concern in computational social science: whether laboratory findings generalize.
     
-    \item \textbf{Design Implications.} We translate our empirical findings into actionable platform design principles, showing that communication infrastructure produces norm emergence more effectively than model capability upgrades.
+    \item \textbf{Actionable Design Framework.} We translate empirical findings into concrete platform design principles, showing that communication infrastructure—shared context windows, guaranteed message delivery, bounded latency—produces norm emergence at low cost, while model upgrades alone do not.
 \end{enumerate}
+
+\subsection{Paper Structure}
+\label{sec:structure}
+
+The remainder of this paper is organized as follows. Section \ref{sec:related} reviews related work on norm emergence, LLM population behavior, and environmental determinants of collective action. Section \ref{sec:methods} describes our factorial experimental design, environment simulation, agent configuration, and outcome metrics. Section \ref{sec:results} presents our findings for each hypothesis. Section \ref{sec:discussion} discusses theoretical and practical implications for HCI platform design. Section \ref{sec{limitations}} addresses ecological validity, model dependency, norm operationalization, and human-in-the-loop constraints. Section \ref{sec:conclusion} summarizes contributions and future directions.
