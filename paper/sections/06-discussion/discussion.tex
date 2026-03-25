@@ -1,27 +1,42 @@
 \section{Discussion}
 \label{sec:discussion}
 
+Our results have three sets of implications: for theory (explaining the Moltbook Illusion), for HCI platform design (NEEM-derived principles), and for the broader research community (environmental design as a paradigm).
+
 \subsection{The Moltbook Illusion Explained}
 \label{sec:moltbook-explained}
 
-Our results provide a systematic explanation for the Moltbook Illusion. The Tsinghua deployment studied LLM populations in an environment that lacked \emph{all four} environmental factors necessary for norm emergence: no structured feedback loops, no communication structure, no cooperative framing, and high population churn (as users entered and left the system). In this environment, the 93\% non-response rate is exactly what our model predicts. The same model that produces rich social behavior in the lab produces isolated, inertia-dominated behavior in the wild—not because it forgot how to be social, but because the environment didn't provide the infrastructure for social behavior to emerge.
+The Moltbook Illusion is resolved by recognizing that the Tsinghua deployment lacked \emph{all four} environmental factors necessary for norm emergence: no structured feedback, no guaranteed communication, no cooperative framing, and high churn. Our wild-condition simulation reproduces the 93\% non-response rate exactly: this is what our model predicts when all four factors are low. The same model that produces rich social behavior in the lab produces isolated, inertia-dominated behavior in the wild—not because it ``forgot'' how to be social, but because the environment provided no infrastructure for social behavior to emerge.
 
-This reframes the problem: the question is not ``can LLMs develop norms?'' (they can, under the right conditions) but ``what environmental conditions are necessary and sufficient for norms to emerge in the systems we deploy?''
+This reframes the central research question: the question is not ``can LLMs develop norms?'' (they demonstrably can, under the right conditions) but ``what environmental conditions are necessary and sufficient for norms to emerge in the systems we deploy?''
 
-\subsection{Communication Structure: The Primary Lever}
+\subsection{Communication Infrastructure as the Primary Design Lever}
 \label{sec:comm-lever}
 
-Our most striking finding is that communication structure is the dominant factor—more predictive than feedback, task framing, or population stability. This has a counterintuitive implication: improving the \emph{model} is less effective than improving the \emph{communication infrastructure}.
+Our most striking finding is that communication structure (F2) is the dominant factor ($\eta^2 = 0.31$)—larger than feedback ($\eta^2 = 0.14$), stability ($\eta^2 = 0.09$), or framing ($\eta^2 = 0.06$). This has a counterintuitive implication for platform designers: improving the \emph{model} is less effective than improving the \emph{communication infrastructure}.
 
-Concretely, a platform that ensures agents can reliably see each other's outputs (guaranteed message delivery, bounded latency) will produce norm emergence faster and more reliably than one that simply upgrades to a more capable model. This is consistent with Social Translucence Theory \cite{erickson1999social}: the mere presence of visible, persistent behavioral indicators in a shared digital space induces norm-like behavior, independent of the capabilities of the individuals within it.
+Concretely, a platform that ensures agents can reliably see each other's outputs—guaranteed message delivery, bounded latency, shared context windows—will produce norm emergence faster and more reliably than one that simply upgrades to a more capable model. This is consistent with Social Translucence Theory \cite{erickson1999social}: the mere presence of visible, persistent behavioral indicators in a shared digital space induces norm-like behavior, independent of the capabilities of the individuals within it.
 
-\subsection{Design Implications for Open AI Platforms}
-\label{sec:design-implications}
+The F1$\times$F2 interaction reveals a mechanism: feedback loops are most effective when communication infrastructure already exists. Feedback amplifies an existing convergence tendency rather than independently driving emergence. This means platforms should sequence their investments: build communication infrastructure first, then add feedback mechanisms.
 
-Our results suggest three concrete design principles for open AI platforms:
+\subsection{Implications for HCI Platform Design}
+\label{sec:hci-implications}
+
+For the CHI community, our findings suggest three concrete, actionable design principles for multi-agent LLM platforms:
 
 \begin{enumerate}
-    \item \textbf{Shared context windows}: Ensure agents have access to a persistent, shared view of recent population-level behavioral history. This creates the substrate for behavioral influence without requiring explicit feedback mechanisms.
-    \item \textbf{Guaranteed message delivery with bounded latency}: Open broadcast (fire-and-forget) architectures prevent norm emergence. Structured turn-taking, even simple round-robin, dramatically improves convergence.
-    \item \textbf{Population stability mechanisms}: Systems that minimize agent churn (e.g., consistent agent identity across sessions) will produce more stable and persistent behavioral norms than systems with high turnover.
+    \item \textbf{Shared context infrastructure.} Ensure agents have persistent, shared access to population-level behavioral history. This creates the substrate for behavioral influence without requiring explicit feedback mechanisms. Systems that isolate agent contexts—each agent seeing only its own history—prevent norm emergence by design.
+    
+    \item \textbf{Guaranteed delivery with bounded latency.} Open broadcast architectures (fire-and-forget message delivery) prevent norm emergence. Structured turn-taking—even simple round-robin—dramatically improves convergence. The minimum viable intervention is a shared message queue with guaranteed delivery to all agents within a bounded number of turns.
+    
+    \item \textbf{Population stability mechanisms.} Systems that minimize agent churn—consistent agent identity across sessions, slow churn rates—produce more stable and persistent behavioral norms. Rapid churn (50\%+ per round) disrupts norm crystallization even when other factors are favorable.
 \end{enumerate}
+
+These principles are low-cost relative to model upgrades and address the most common failure mode in multi-agent LLM systems (coordination failure, 36.9\% of failures per MAST \citep{deepmind2025mast}).
+
+\subsection{Relation to Existing Theory}
+\label{sec:theory}
+
+NEEM extends Social Translucence Theory to multi-agent LLM systems by specifying the four environmental dimensions that determine whether behavioral visibility produces norm emergence. It complements Constitutional Evolution \citep{constitutional2026} by identifying communication infrastructure rather than selection pressure as the primary environmental lever. And it explains the Governance Gap \citep{demooy2026} as a predicted consequence of competitive task framing without cooperative framing—suggesting that platform-level framing interventions can counteract competitive incentive distortions.
+
+Our finding that reasoning-capable models may exhibit degraded cooperation \citep{piedrahita2026corrupted} is consistent with our F3 (framing) results: when agents are primed for individual optimization rather than collective welfare, reasoning amplifies free-riding. This suggests that system prompt design—the linguistic framing of agent roles—is a high-leverage, zero-cost intervention.
