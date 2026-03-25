@@ -1,14 +1,16 @@
 \section{Limitations}
 \label{sec:limitations}
 
+Our study has four primary limitations, each suggesting important directions for future work.
+
 \subsection{Ecological Validity}
-Our ``wild'' simulation approximates—rather than directly replicates—Tsinghua Moltbook conditions. Key parameters (churn rate, communication probability) are estimates. We partially mitigate this through Tsinghua data anchoring: our wild conditions reproduce the 93\% non-response baseline.
+Our ``wild'' condition is an approximation of Tsinghua Moltbook conditions rather than a direct replication. Key parameters (communication probability $p=0.20$, churn rate 50\%) are estimates from published descriptions. We partially mitigate through baseline matching: our wild conditions reproduce the 93\% IIR from \cite{li2026tsinghua}, suggesting reasonable ecological fidelity. Future work should conduct direct side-by-side comparison of simulation and field environments.
 
 \subsection{Model Dependency}
-All experiments use Claude Sonnet. Results may not generalize to other LLMs with different social reasoning profiles. We treat model tier as a secondary factor; full cross-model validation is future work.
+All experiments use Claude Sonnet 4. Results may not generalize to other LLMs with different social reasoning profiles. Prior work suggests reasoning-capable models exhibit different cooperative dynamics \citep{piedrahita2026corrupted}, and model tier may moderate the feedback (F1) effect. Cross-model validation is essential future work.
 
 \subsection{Norm Operationalization}
-BCS measures behavioral convergence but cannot distinguish genuine social norms from coincidental alignment. We supplement BCS with Cross-Session Norm Transfer (CSNT) and Norm Content Analysis to confirm social rather than individual origins of convergence.
+BCS measures behavioral convergence but cannot distinguish genuine social norms from coincidental alignment. We supplement BCS with NPI (persistence) and CSNT (cross-session transfer) as converging evidence. Blind human coding (Cohen's $\kappa > 0.85$) provides partial mitigation.
 
-\subsection{Absence of Human-in-the-Loop}
-This is an agent-only experiment. Human-AI mixed norms (RQ4) may have fundamentally different dynamics and require different environmental conditions.
+\subsection{Human-in-the-Loop Absence}
+This is an agent-only experiment. Human-AI mixed populations may exhibit fundamentally different dynamics. The HCI relevance of our findings depends on the assumption that agent-agent norm dynamics are predictive of human-agent dynamics in deployed systems—a reasonable but untested assumption.

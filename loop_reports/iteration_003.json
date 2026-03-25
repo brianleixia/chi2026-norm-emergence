@@ -1,79 +1,59 @@
 {
   "iteration": 3,
-  "last_update": "2026-03-25T07:27:47.226906",
+  "timestamp": "2026-03-25T07:27:47.226671",
   "current_phase": "writing_draft",
-  "sections_complete": [],
-  "sections_incomplete": [
-    "abstract",
-    "intro",
-    "relatedwork",
-    "methods",
-    "results",
-    "discussion",
-    "limitations",
-    "conclusion"
-  ],
-  "chi_score": 0,
-  "chi_threshold": 7,
-  "notes": [],
-  "current_task": "add_citations_abstract",
-  "current_task_desc": "\u4e3a abstract \u6dfb\u52a0\u5f15\u6587",
-  "section_status": {
+  "task": "add_citations_abstract",
+  "task_desc": "\u4e3a abstract \u6dfb\u52a0\u5f15\u6587",
+  "sections": {
     "abstract": {
-      "exists": true,
       "size": 1991,
       "has_content": true,
       "has_citations": false,
       "complete": false
     },
     "intro": {
-      "exists": true,
       "size": 4549,
       "has_content": true,
       "has_citations": true,
       "complete": true
     },
     "relatedwork": {
-      "exists": true,
       "size": 4718,
       "has_content": true,
       "has_citations": true,
       "complete": true
     },
     "methods": {
-      "exists": true,
       "size": 4942,
       "has_content": true,
       "has_citations": true,
       "complete": true
     },
     "results": {
-      "exists": true,
       "size": 4207,
       "has_content": true,
       "has_citations": true,
       "complete": true
     },
     "discussion": {
-      "exists": true,
       "size": 2819,
       "has_content": true,
       "has_citations": true,
       "complete": true
     },
     "limitations": {
-      "exists": true,
       "size": 1683,
       "has_content": true,
       "has_citations": true,
       "complete": true
     },
     "conclusion": {
-      "exists": true,
       "size": 1537,
       "has_content": true,
       "has_citations": false,
       "complete": false
     }
-  }
+  },
+  "chi_score": 0,
+  "target": 7
 }
