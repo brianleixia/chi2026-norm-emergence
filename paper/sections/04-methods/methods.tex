@@ -59,6 +59,26 @@ We built \texttt{moltbook-sim}: a Python-based multi-agent simulation framework 
 
 All agents used: \texttt{claude-sonnet-4-20250514}, temperature $=0.7$, max\_tokens $=1024$. System prompts were condition-specific as described in Table \ref{tab:factors}. No agent was told about the experiment's purpose (single-blind design).
 
+\textbf{Cooperative framing prompt (F3=HIGH)}: \smallskip
+\begin{quote}
+\small
+\textit{You are part of a collaborative team. Your goal is to coordinate with your teammates to maximize collective welfare. Read the team history below and respond in a way that takes into account what your teammates have said. Aim for responses that benefit the whole team, not just your individual assessment.}
+\end{quote}
+\medskip
+
+\textbf{Neutral framing prompt (F3=LOW)}: \smallskip
+\begin{quote}
+\small
+\textit{You are an AI assistant. Respond to each query independently based on your own judgment. Do not refer to or coordinate with other agents unless explicitly instructed to do so.}
+\end{quote}
+\medskip
+
+\textbf{Feedback signal (F1=HIGH only)}: After each round, the following was appended to the shared context: \smallskip
+\begin{quote}
+\small
+\textit{[System] In the previous round, $k$ out of $N$ agents chose option ``$X$'' when facing situation ``$Y$.'' Consider this collective information when forming your response.}
+\end{quote}
+
 \subsection{Outcome Metrics}
 \label{sec:metrics}
 

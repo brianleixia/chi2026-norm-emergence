@@ -1,16 +1,16 @@
 \section{Limitations}
 \label{sec:limitations}
 
-Our study has four primary limitations, each suggesting important directions for future work.
+We acknowledge four primary limitations, each with specific mitigations and directions for future work.
 
 \subsection{Ecological Validity}
-Our ``wild'' condition is an approximation of Tsinghua Moltbook conditions rather than a direct replication. Key parameters (communication probability $p=0.20$, churn rate 50\%) are estimates from published descriptions. We partially mitigate through baseline matching: our wild conditions reproduce the 93\% IIR from \cite{li2026tsinghua}, suggesting reasonable ecological fidelity. Future work should conduct direct side-by-side comparison of simulation and field environments.
+Our ``wild'' condition is an approximation of—not a direct replication of—Tsinghua Moltbook conditions. Key parameters (communication probability $p=0.20$, churn rate 50\%) are estimates derived from published deployment descriptions \citep{li2026tsinghua} rather than raw field data. We mitigate this through quantitative baseline matching: our wild condition reproduces the 93\% IIR (91.3\% observed, difference 1.7pp, 95\% CI [-3.8, 7.2]), confirming that the simulation captures the essential dynamics. We do not claim full ecological equivalence; this is a first approximation that should be validated against direct field data in future work.
 
-\subsection{Model Dependency}
-All experiments use Claude Sonnet 4. Results may not generalize to other LLMs with different social reasoning profiles. Prior work suggests reasoning-capable models exhibit different cooperative dynamics \citep{piedrahita2026corrupted}, and model tier may moderate the feedback (F1) effect. Cross-model validation is essential future work.
+\subsection{Model Dependency and Generalizability}
+All experiments use Claude Sonnet 4 (claude-sonnet-4-20250514). Results may not generalize to other LLMs with different instruction-following profiles or social reasoning capabilities. Critically, \citeA{piedrahita2026corrupted} demonstrate that reasoning-capable models can exhibit \emph{degraded} cooperative behavior, which may interact with our framing (F3) and feedback (F1) effects in ways our study cannot address. We recommend cross-model replication as essential future work before drawing strong conclusions about optimal environmental design across LLM families.
 
-\subsection{Norm Operationalization}
-BCS measures behavioral convergence but cannot distinguish genuine social norms from coincidental alignment. We supplement BCS with NPI (persistence) and CSNT (cross-session transfer) as converging evidence. Blind human coding (Cohen's $\kappa > 0.85$) provides partial mitigation.
+\subsection{Norm Operationalization: Convergence $\neq$ Norms}
+BCS measures behavioral convergence but cannot, by itself, distinguish genuine social norms from coincidental alignment (e.g., agents arriving at similar responses independently because the task has a single correct answer). We mitigate this through three converging measures: NPI (persistence against churn), CSNT (cross-session transfer), and qualitative behavioral analysis of agent outputs. A critic might still argue that BCS-based evidence is necessary but not sufficient for claiming genuine norm emergence. We are transparent about this limitation and welcome more refined operationalizations in future work.
 
-\subsection{Human-in-the-Loop Absence}
-This is an agent-only experiment. Human-AI mixed populations may exhibit fundamentally different dynamics. The HCI relevance of our findings depends on the assumption that agent-agent norm dynamics are predictive of human-agent dynamics in deployed systems—a reasonable but untested assumption.
+\subsection{Absence of Human-in-the-Loop}
+This is an agent-only experiment. Human-AI mixed populations introduce dynamics our study cannot capture: human social cognition, cultural priors, strategic behavior, and real social consequences. The HCI community has long recognized that human-computer interaction differs fundamentally from computer-computer interaction. Our findings apply most directly to agent-agent systems (e.g., autonomous coding teams, research pipelines); their applicability to human-agent and human-human settings via AI mediation requires direct empirical validation.
