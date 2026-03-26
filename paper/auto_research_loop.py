@@ -66,7 +66,8 @@ def check_sections():
                 content = f.read()
             # 粗略判断完成度：内容>200字 = 有实质内容
             has_content = len(content.strip()) > 200
-            has_citations = "\\cite{" in content or "\\bibliography" in content
+            has_citations = ("\\cite{" in content or "\\bibliography" in content
+                            or "\\citeA{" in content or "\\citep{" in content)
             status[name] = {
                 "exists": True,
                 "size": size,
