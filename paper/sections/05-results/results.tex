@@ -46,11 +46,16 @@ Pop. Stability (F4) & Stable & 0.48 & 0.20 & 0.09 & $<$0.001 \\
 
 \begin{figure*}[t]
 \begin{center}
-\fbox{\parbox{0.92\linewidth}{
-\caption{BCS trajectories over 20 rounds, by condition. Each line = mean across 10 replicates. Shaded region = $\pm$1 SE. (a) pure\_lab (all HIGH): rapid norm crystallization by round 4. (b) pure\_wild (all LOW): flat inertia trajectory, matching Tsinghua 93\% non-response. (c) comm-structure-only (F2=HIGH, others LOW): near-threshold convergence. (d) feedback-only (F1=HIGH, others LOW): moderate convergence but below emergence threshold.}
+\subfloat[Pure lab (all HIGH): rapid convergence by round 4.]{\includegraphics[width=0.42\linewidth]{figures/bcs_pure_lab.pdf}\label{fig:bcs-pure-lab}}
+\hfil
+\subfloat[Pure wild (all LOW): flat inertia, matching Tsinghua 93\% non-response.]{\includegraphics[width=0.42\linewidth]{figures/bcs_pure_wild.pdf}\label{fig:bcs-pure-wild}}
+
+\subfloat[Comm-structure-only (F2=HIGH): near-threshold convergence without feedback.]{\includegraphics[width=0.42\linewidth]{figures/bcs_comm_only.pdf}\label{fig:bcs-comm-only}}
+\hfil
+\subfloat[Feedback-only (F1=HIGH): moderate convergence but below emergence threshold.]{\includegraphics[width=0.42\linewidth]{figures/bcs_feedback_only.pdf}\label{fig:bcs-feedback-only}}
+
+\caption{BCS trajectories over 20 rounds, by condition. Each line = mean $\pm$ SE across 10 replicates. Dashed horizontal line = norm emergence threshold (BCS = 0.70). (a) Pure lab conditions produce rapid norm crystallization. (b) Pure wild conditions produce flat inertia trajectory. (c) Communication structure alone approaches emergence threshold. (d) Feedback alone is insufficient for norm emergence.}
 \label{fig:bcs-trajectories}
-\vspace{4pt}
-}}
 \end{center}
 \vskip -0.1in
 \end{figure*}
