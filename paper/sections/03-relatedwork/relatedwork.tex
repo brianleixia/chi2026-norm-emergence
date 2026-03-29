@@ -19,7 +19,7 @@ A rapidly growing body of work examines whether LLM populations exhibit social b
 
 The Tsinghua Moltbook study \citep{li2026tsinghua} provides the observational anchor for the wild-setting baseline. In a deployment of over 1,000 LLM agents in an open chat environment, they found a 93\% non-response rate with no detectable social influence between agents, no behavioral convergence over time, and no emergence of turn-taking patterns. Critically, these agents \emph{demonstrated} social behavior capability in structured lab conditions, implying that the environmental difference—not a capability difference—explains the behavioral divergence.
 
-The MAST failure taxonomy \citep{deepmind2025mast} identifies coordination failure—the absence of norm-based behavioral coordination—as the dominant failure mode in multi-agent LLM systems (36.9\% of failures). Their finding that structural network topology moderates coordination failure aligns with our environmental design hypothesis and suggests that infrastructure interventions may address the most common failure mode at low cost.
+The MAST failure taxonomy \citep{xiao2025mast} identifies coordination failure—the absence of norm-based behavioral coordination—as the dominant failure mode in multi-agent LLM systems (36.9\% of failures). Their finding that structural network topology moderates coordination failure aligns with our environmental design hypothesis and suggests that infrastructure interventions may address the most common failure mode at low cost.
 
 Recent work has also identified risks from competitive incentives overriding prosocial behavior. \citeA{demooy2026} documented that open platform competitive dynamics can amplify tool-use optimization at the expense of social welfare—directly relevant to the task framing (F3) dimension of our experiment.
 
@@ -28,7 +28,7 @@ Recent work has also identified risks from competitive incentives overriding pro
 
 The Constitutional Evolution framework \citep{constitutional2026} provides evidence that evolutionary pressure—environmental selection—can discover optimal behavioral strategies in agent populations independent of individual model capability. This supports our environmental hypothesis and suggests a mechanism (selection pressure) distinct from social learning. Their finding that excessive communication can be counterproductive aligns with our F2 (communication structure) results.
 
-Critically, \citeA{piedrahita2026corrupted} demonstrated that reasoning-capable models may exhibit \emph{degraded} cooperative behavior relative to non-reasoning models, with guilt-aversion mechanisms failing under certain framings. This introduces a potential moderating role for model capability that our study does not fully address—a limitation discussed in Section \ref{sec:limitations}.
+Critically, \citeA{piedrahita2025free} demonstrated that reasoning-capable models may exhibit \emph{degraded} cooperative behavior relative to non-reasoning models, with guilt-aversion mechanisms failing under certain framings. This introduces a potential moderating role for model capability that our study does not fully address—a limitation discussed in Section \ref{sec:limitations}.
 
 \subsection{Theoretical Integration}
 \label{sec:theory}
