@@ -4,7 +4,9 @@
 \subsection{Problem Statement and Motivation}
 \label{sec:motivation}
 
-Large language model (LLM) populations are increasingly deployed in multi-agent configurations—chat platforms, autonomous coding assistants, research agents—where their collective behavior has direct consequences for human users. A fundamental question for the HCI community is whether these populations can develop \emph{social norms}: shared, self-reinforcing behavioral expectations that emerge from interaction rather than explicit specification.
+Multi-agent large language model (LLM) systems are rapidly becoming a core interaction paradigm in HCI: chat platforms host thousands of agents simultaneously, autonomous assistants coordinate in coding teams, and research agents collaborate in pipelines with human oversight. As these populations grow in scale and autonomy, a foundational HCI question emerges: \emph{can—or should—LLM populations develop their own social norms}, shared behavioral expectations that emerge bottom-up from interaction rather than being explicitly programmed? And if so, what environmental conditions make this likely?
+
+This question matters for platform design. If norm emergence is driven by environmental factors, then platform designers have a direct lever—communication infrastructure, feedback mechanisms, task framing—regardless of which underlying model they deploy. If it depends on model capability alone, then only frontier model upgrades can help. Understanding which is true has immediate implications for how the CHI community should advise platform builders.
 
 Recent laboratory studies suggest the answer is yes. \citeA{ashery2025} demonstrated that LLM populations in structured interaction settings spontaneously develop turn-taking norms, information-sharing protocols, and collective bias without explicit programming. \citeA{li2026tsinghua} reported similar phenomena under specific experimental conditions. These findings are exciting: if LLM populations can develop norms bottom-up, platform designers may be able to shape collective behavior through environmental design rather than top-down rule-making.
 
