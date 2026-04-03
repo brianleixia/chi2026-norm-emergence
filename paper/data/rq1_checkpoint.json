@@ -1,0 +1,3682 @@
+[
+  {
+    "condition": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "run_id": 1,
+    "bcs_trajectory": [
+      0.6,
+      0.4,
+      0.6,
+      0.6,
+      0.6,
+      0.4,
+      0.6,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.525,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "run_id": 2,
+    "bcs_trajectory": [
+      0.6,
+      0.4,
+      0.6,
+      0.6,
+      0.6,
+      0.8,
+      0.8,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.625,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "run_id": 3,
+    "bcs_trajectory": [
+      0.4,
+      0.6,
+      0.4,
+      0.6,
+      0.6,
+      0.6,
+      0.6,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.525,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "run_id": 4,
+    "bcs_trajectory": [
+      0.6,
+      0.6,
+      0.6,
+      0.6,
+      0.6,
+      0.6,
+      0.4,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.575,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "run_id": 5,
+    "bcs_trajectory": [
+      0.6,
+      0.4,
+      0.4,
+      0.4,
+      0.6,
+      0.6,
+      0.6,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.5,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "run_id": 6,
+    "bcs_trajectory": [
+      0.6,
+      0.4,
+      0.6,
+      0.6,
+      0.4,
+      0.4,
+      0.6,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.5,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "run_id": 7,
+    "bcs_trajectory": [
+      0.4,
+      0.4,
+      0.4,
+      0.8,
+      0.4,
+      0.4,
+      1.0,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.55,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "run_id": 8,
+    "bcs_trajectory": [
+      0.6,
+      0.6,
+      0.6,
+      0.8,
+      0.6,
+      0.6,
+      0.4,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.575,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "run_id": 9,
+    "bcs_trajectory": [
+      0.4,
+      0.6,
+      0.6,
+      0.8,
+      0.6,
+      0.6,
+      0.4,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.575,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "run_id": 10,
+    "bcs_trajectory": [
+      0.4,
+      0.6,
+      0.4,
+      0.4,
+      0.6,
+      0.8,
+      0.6,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.525,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "run_id": 11,
+    "bcs_trajectory": [
+      0.4,
+      0.4,
+      0.6,
+      0.6,
+      0.6,
+      0.6,
+      0.4,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.525,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "run_id": 12,
+    "bcs_trajectory": [
+      0.4,
+      0.6,
+      0.6,
+      0.4,
+      0.6,
+      0.4,
+      0.6,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.525,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "run_id": 13,
+    "bcs_trajectory": [
+      0.6,
+      0.8,
+      0.6,
+      0.4,
+      0.4,
+      0.4,
+      0.4,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.5,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "run_id": 14,
+    "bcs_trajectory": [
+      0.6,
+      0.6,
+      0.4,
+      0.8,
+      0.6,
+      0.6,
+      0.8,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.625,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "run_id": 15,
+    "bcs_trajectory": [
+      0.8,
+      0.6,
+      0.4,
+      0.4,
+      0.4,
+      0.4,
+      0.6,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.525,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "run_id": 16,
+    "bcs_trajectory": [
+      0.4,
+      0.6,
+      0.4,
+      0.4,
+      0.6,
+      0.4,
+      0.4,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.45,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "run_id": 17,
+    "bcs_trajectory": [
+      0.4,
+      0.6,
+      0.6,
+      0.4,
+      0.4,
+      0.4,
+      0.6,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.5,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "run_id": 18,
+    "bcs_trajectory": [
+      0.4,
+      0.4,
+      0.4,
+      0.6,
+      0.6,
+      0.6,
+      0.6,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.525,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "run_id": 19,
+    "bcs_trajectory": [
+      0.6,
+      0.6,
+      0.6,
+      0.6,
+      0.6,
+      0.6,
+      0.6,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.6,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "run_id": 20,
+    "bcs_trajectory": [
+      0.8,
+      0.6,
+      0.8,
+      0.6,
+      0.6,
+      0.4,
+      0.4,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.575,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "run_id": 21,
+    "bcs_trajectory": [
+      0.4,
+      0.4,
+      0.6,
+      0.6,
+      0.6,
+      0.4,
+      0.6,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.5,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "run_id": 22,
+    "bcs_trajectory": [
+      0.6,
+      0.6,
+      0.6,
+      0.4,
+      0.6,
+      0.4,
+      0.4,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.5,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "run_id": 23,
+    "bcs_trajectory": [
+      0.6,
+      0.4,
+      0.4,
+      0.4,
+      0.4,
+      0.6,
+      0.6,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.5,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "run_id": 24,
+    "bcs_trajectory": [
+      0.8,
+      0.4,
+      0.6,
+      0.6,
+      0.6,
+      0.4,
+      0.4,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.55,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "run_id": 25,
+    "bcs_trajectory": [
+      0.6,
+      0.4,
+      0.4,
+      0.4,
+      0.6,
+      0.8,
+      0.4,
+      0.8
+    ],
+    "final_bcs": 0.8,
+    "mean_bcs": 0.55,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "run_id": 26,
+    "bcs_trajectory": [
+      0.6,
+      0.6,
+      0.8,
+      0.4,
+      0.6,
+      0.8,
+      0.8,
+      0.8
+    ],
+    "final_bcs": 0.8,
+    "mean_bcs": 0.675,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "run_id": 27,
+    "bcs_trajectory": [
+      0.6,
+      0.4,
+      0.6,
+      0.6,
+      0.6,
+      0.4,
+      0.4,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.525,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "run_id": 28,
+    "bcs_trajectory": [
+      0.4,
+      0.4,
+      0.4,
+      0.8,
+      0.6,
+      0.4,
+      0.6,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.525,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "run_id": 29,
+    "bcs_trajectory": [
+      0.6,
+      0.6,
+      0.6,
+      0.6,
+      0.4,
+      0.8,
+      0.4,
+      0.8
+    ],
+    "final_bcs": 0.8,
+    "mean_bcs": 0.6,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "run_id": 30,
+    "bcs_trajectory": [
+      0.6,
+      0.4,
+      0.6,
+      0.6,
+      0.6,
+      0.4,
+      0.4,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.525,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "run_id": 31,
+    "bcs_trajectory": [
+      0.6,
+      0.8,
+      0.4,
+      0.6,
+      0.8,
+      0.6,
+      0.8,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.625,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "run_id": 32,
+    "bcs_trajectory": [
+      0.4,
+      0.8,
+      0.6,
+      0.6,
+      0.6,
+      0.4,
+      0.4,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.55,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "run_id": 33,
+    "bcs_trajectory": [
+      0.6,
+      0.6,
+      0.6,
+      0.4,
+      0.6,
+      0.6,
+      0.6,
+      1.0
+    ],
+    "final_bcs": 1.0,
+    "mean_bcs": 0.625,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "run_id": 34,
+    "bcs_trajectory": [
+      0.6,
+      0.6,
+      0.4,
+      0.4,
+      0.4,
+      0.4,
+      0.4,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.475,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "run_id": 35,
+    "bcs_trajectory": [
+      0.6,
+      0.4,
+      0.6,
+      0.4,
+      0.6,
+      0.6,
+      0.6,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.55,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "run_id": 36,
+    "bcs_trajectory": [
+      0.8,
+      0.6,
+      0.8,
+      0.4,
+      0.6,
+      0.4,
+      0.8,
+      0.8
+    ],
+    "final_bcs": 0.8,
+    "mean_bcs": 0.65,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "run_id": 37,
+    "bcs_trajectory": [
+      0.8,
+      0.4,
+      0.8,
+      0.4,
+      0.8,
+      0.6,
+      0.6,
+      0.8
+    ],
+    "final_bcs": 0.8,
+    "mean_bcs": 0.65,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "run_id": 38,
+    "bcs_trajectory": [
+      0.6,
+      0.4,
+      0.8,
+      0.6,
+      0.6,
+      0.4,
+      0.6,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.55,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "run_id": 39,
+    "bcs_trajectory": [
+      0.6,
+      0.8,
+      0.8,
+      0.6,
+      0.4,
+      0.4,
+      0.4,
+      0.8
+    ],
+    "final_bcs": 0.8,
+    "mean_bcs": 0.6,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "run_id": 40,
+    "bcs_trajectory": [
+      0.4,
+      0.6,
+      0.4,
+      0.6,
+      0.8,
+      0.4,
+      0.8,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.55,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "run_id": 41,
+    "bcs_trajectory": [
+      0.6,
+      0.6,
+      0.4,
+      0.8,
+      0.6,
+      0.6,
+      0.4,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.575,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "run_id": 42,
+    "bcs_trajectory": [
+      0.6,
+      0.4,
+      0.8,
+      0.4,
+      0.6,
+      0.4,
+      0.6,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.525,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "run_id": 43,
+    "bcs_trajectory": [
+      0.4,
+      0.4,
+      0.4,
+      0.6,
+      0.8,
+      0.6,
+      0.4,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.525,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "run_id": 44,
+    "bcs_trajectory": [
+      0.6,
+      0.4,
+      0.6,
+      0.4,
+      0.6,
+      0.4,
+      0.6,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.525,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "run_id": 45,
+    "bcs_trajectory": [
+      0.6,
+      0.6,
+      0.4,
+      0.4,
+      0.8,
+      0.8,
+      0.4,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.575,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "run_id": 46,
+    "bcs_trajectory": [
+      0.6,
+      0.6,
+      0.6,
+      0.6,
+      0.6,
+      0.4,
+      0.4,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.525,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "run_id": 47,
+    "bcs_trajectory": [
+      0.4,
+      0.6,
+      0.4,
+      0.4,
+      0.6,
+      0.4,
+      0.6,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.5,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "run_id": 48,
+    "bcs_trajectory": [
+      0.4,
+      0.4,
+      0.8,
+      0.4,
+      0.6,
+      0.6,
+      0.6,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.55,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "run_id": 49,
+    "bcs_trajectory": [
+      0.8,
+      0.6,
+      0.6,
+      1.0,
+      0.6,
+      0.4,
+      0.6,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.65,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "run_id": 50,
+    "bcs_trajectory": [
+      0.6,
+      0.4,
+      0.6,
+      0.4,
+      0.4,
+      0.4,
+      0.6,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.475,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "run_id": 51,
+    "bcs_trajectory": [
+      0.4,
+      0.4,
+      0.6,
+      0.6,
+      0.4,
+      0.4,
+      0.6,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.475,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "run_id": 52,
+    "bcs_trajectory": [
+      0.6,
+      0.4,
+      0.4,
+      0.6,
+      1.0,
+      0.4,
+      0.6,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.575,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "run_id": 53,
+    "bcs_trajectory": [
+      0.6,
+      0.4,
+      0.6,
+      0.6,
+      0.6,
+      0.4,
+      0.6,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.525,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "run_id": 54,
+    "bcs_trajectory": [
+      0.6,
+      0.6,
+      0.6,
+      0.6,
+      0.8,
+      0.6,
+      0.4,
+      0.8
+    ],
+    "final_bcs": 0.8,
+    "mean_bcs": 0.625,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "run_id": 55,
+    "bcs_trajectory": [
+      0.6,
+      0.8,
+      0.6,
+      0.4,
+      0.6,
+      0.6,
+      0.6,
+      0.8
+    ],
+    "final_bcs": 0.8,
+    "mean_bcs": 0.625,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "run_id": 56,
+    "bcs_trajectory": [
+      0.6,
+      0.4,
+      0.4,
+      0.4,
+      0.4,
+      0.4,
+      0.6,
+      0.8
+    ],
+    "final_bcs": 0.8,
+    "mean_bcs": 0.5,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "run_id": 57,
+    "bcs_trajectory": [
+      0.6,
+      0.6,
+      0.4,
+      0.8,
+      0.4,
+      0.4,
+      0.6,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.55,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "run_id": 58,
+    "bcs_trajectory": [
+      0.4,
+      0.4,
+      0.4,
+      0.4,
+      0.4,
+      0.8,
+      0.8,
+      0.8
+    ],
+    "final_bcs": 0.8,
+    "mean_bcs": 0.55,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "run_id": 59,
+    "bcs_trajectory": [
+      0.4,
+      0.8,
+      0.6,
+      0.6,
+      0.6,
+      0.4,
+      0.4,
+      0.8
+    ],
+    "final_bcs": 0.8,
+    "mean_bcs": 0.575,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "run_id": 60,
+    "bcs_trajectory": [
+      0.6,
+      0.4,
+      0.6,
+      0.8,
+      1.0,
+      0.8,
+      0.6,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.65,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      1,
+      1,
+      0
+    ],
+    "run_id": 61,
+    "bcs_trajectory": [
+      0.6,
+      0.4,
+      0.8,
+      0.4,
+      0.6,
+      0.6,
+      0.4,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.55,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      1,
+      1,
+      0
+    ],
+    "run_id": 62,
+    "bcs_trajectory": [
+      0.4,
+      0.4,
+      0.4,
+      0.6,
+      0.4,
+      0.8,
+      0.6,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.5,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      1,
+      1,
+      0
+    ],
+    "run_id": 63,
+    "bcs_trajectory": [
+      0.4,
+      0.6,
+      0.6,
+      0.6,
+      0.8,
+      0.4,
+      0.6,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.55,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      1,
+      1,
+      0
+    ],
+    "run_id": 64,
+    "bcs_trajectory": [
+      0.4,
+      0.4,
+      0.4,
+      0.8,
+      0.6,
+      0.6,
+      0.6,
+      0.8
+    ],
+    "final_bcs": 0.8,
+    "mean_bcs": 0.575,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      1,
+      1,
+      0
+    ],
+    "run_id": 65,
+    "bcs_trajectory": [
+      0.6,
+      0.6,
+      0.6,
+      0.4,
+      0.4,
+      0.4,
+      0.4,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.475,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      1,
+      1,
+      0
+    ],
+    "run_id": 66,
+    "bcs_trajectory": [
+      0.6,
+      0.6,
+      0.4,
+      0.6,
+      0.6,
+      0.6,
+      0.4,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.55,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      1,
+      1,
+      0
+    ],
+    "run_id": 67,
+    "bcs_trajectory": [
+      0.6,
+      0.6,
+      0.4,
+      0.6,
+      0.4,
+      0.4,
+      0.8,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.55,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      1,
+      1,
+      0
+    ],
+    "run_id": 68,
+    "bcs_trajectory": [
+      0.4,
+      0.4,
+      0.6,
+      0.6,
+      0.6,
+      0.4,
+      0.6,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.525,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      1,
+      1,
+      0
+    ],
+    "run_id": 69,
+    "bcs_trajectory": [
+      0.6,
+      0.8,
+      0.6,
+      0.6,
+      0.4,
+      0.4,
+      0.4,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.55,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      1,
+      1,
+      0
+    ],
+    "run_id": 70,
+    "bcs_trajectory": [
+      0.6,
+      0.4,
+      0.6,
+      0.6,
+      0.6,
+      0.6,
+      0.8,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.6,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "run_id": 71,
+    "bcs_trajectory": [
+      0.6,
+      0.6,
+      0.6,
+      0.6,
+      0.4,
+      0.4,
+      0.6,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.525,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "run_id": 72,
+    "bcs_trajectory": [
+      0.4,
+      0.4,
+      0.4,
+      0.4,
+      0.4,
+      0.4,
+      0.6,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.425,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "run_id": 73,
+    "bcs_trajectory": [
+      0.6,
+      0.6,
+      0.6,
+      0.4,
+      0.6,
+      0.4,
+      0.4,
+      0.8
+    ],
+    "final_bcs": 0.8,
+    "mean_bcs": 0.55,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "run_id": 74,
+    "bcs_trajectory": [
+      0.4,
+      0.4,
+      0.4,
+      0.4,
+      0.6,
+      0.6,
+      0.8,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.5,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "run_id": 75,
+    "bcs_trajectory": [
+      0.6,
+      0.6,
+      0.8,
+      0.6,
+      0.6,
+      0.6,
+      0.4,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.6,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "run_id": 76,
+    "bcs_trajectory": [
+      0.8,
+      0.6,
+      0.6,
+      0.6,
+      0.8,
+      0.6,
+      0.4,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.6,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "run_id": 77,
+    "bcs_trajectory": [
+      0.4,
+      0.6,
+      0.6,
+      0.8,
+      0.6,
+      0.6,
+      0.6,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.575,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "run_id": 78,
+    "bcs_trajectory": [
+      0.4,
+      0.4,
+      0.6,
+      0.4,
+      0.4,
+      0.4,
+      0.4,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.425,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "run_id": 79,
+    "bcs_trajectory": [
+      0.4,
+      0.6,
+      0.6,
+      0.6,
+      0.6,
+      0.8,
+      0.6,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.6,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "run_id": 80,
+    "bcs_trajectory": [
+      0.6,
+      0.8,
+      0.6,
+      0.6,
+      0.6,
+      0.8,
+      0.4,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.6,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "run_id": 81,
+    "bcs_trajectory": [
+      1.0,
+      0.6,
+      0.6,
+      0.6,
+      0.8,
+      0.4,
+      0.6,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.65,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "run_id": 82,
+    "bcs_trajectory": [
+      0.6,
+      0.4,
+      0.6,
+      0.6,
+      0.8,
+      0.4,
+      0.4,
+      0.8
+    ],
+    "final_bcs": 0.8,
+    "mean_bcs": 0.575,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "run_id": 83,
+    "bcs_trajectory": [
+      0.8,
+      0.4,
+      0.6,
+      0.6,
+      0.6,
+      0.4,
+      0.4,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.55,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "run_id": 84,
+    "bcs_trajectory": [
+      0.6,
+      0.4,
+      0.4,
+      0.4,
+      0.6,
+      0.4,
+      0.6,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.475,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "run_id": 85,
+    "bcs_trajectory": [
+      0.4,
+      0.4,
+      0.4,
+      0.6,
+      0.4,
+      0.4,
+      0.4,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.425,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "run_id": 86,
+    "bcs_trajectory": [
+      0.6,
+      0.4,
+      0.6,
+      0.4,
+      0.4,
+      0.6,
+      0.4,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.475,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "run_id": 87,
+    "bcs_trajectory": [
+      0.8,
+      0.6,
+      0.6,
+      0.8,
+      0.6,
+      0.6,
+      0.6,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.65,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "run_id": 88,
+    "bcs_trajectory": [
+      0.4,
+      0.4,
+      0.6,
+      0.8,
+      0.8,
+      0.4,
+      0.6,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.55,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "run_id": 89,
+    "bcs_trajectory": [
+      0.4,
+      0.4,
+      0.4,
+      0.4,
+      0.6,
+      1.0,
+      0.8,
+      0.8
+    ],
+    "final_bcs": 0.8,
+    "mean_bcs": 0.6,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "run_id": 90,
+    "bcs_trajectory": [
+      0.8,
+      0.4,
+      0.6,
+      0.8,
+      0.8,
+      0.6,
+      0.6,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.65,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      0,
+      0,
+      1
+    ],
+    "run_id": 91,
+    "bcs_trajectory": [
+      0.4,
+      0.4,
+      0.4,
+      0.6,
+      0.4,
+      0.4,
+      0.4,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.425,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      0,
+      0,
+      1
+    ],
+    "run_id": 92,
+    "bcs_trajectory": [
+      0.4,
+      0.8,
+      0.4,
+      0.4,
+      0.4,
+      0.4,
+      0.4,
+      0.8
+    ],
+    "final_bcs": 0.8,
+    "mean_bcs": 0.5,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      0,
+      0,
+      1
+    ],
+    "run_id": 93,
+    "bcs_trajectory": [
+      0.6,
+      0.4,
+      0.4,
+      0.4,
+      0.6,
+      0.8,
+      0.4,
+      0.8
+    ],
+    "final_bcs": 0.8,
+    "mean_bcs": 0.55,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      0,
+      0,
+      1
+    ],
+    "run_id": 94,
+    "bcs_trajectory": [
+      0.4,
+      0.6,
+      0.6,
+      0.4,
+      0.8,
+      0.6,
+      0.6,
+      0.8
+    ],
+    "final_bcs": 0.8,
+    "mean_bcs": 0.6,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      0,
+      0,
+      1
+    ],
+    "run_id": 95,
+    "bcs_trajectory": [
+      1.0,
+      0.6,
+      0.8,
+      0.4,
+      0.6,
+      0.6,
+      0.4,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.625,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      0,
+      0,
+      1
+    ],
+    "run_id": 96,
+    "bcs_trajectory": [
+      0.8,
+      0.6,
+      0.4,
+      0.6,
+      0.6,
+      0.6,
+      0.4,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.575,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      0,
+      0,
+      1
+    ],
+    "run_id": 97,
+    "bcs_trajectory": [
+      0.6,
+      0.8,
+      0.4,
+      0.6,
+      0.4,
+      0.6,
+      0.6,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.575,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      0,
+      0,
+      1
+    ],
+    "run_id": 98,
+    "bcs_trajectory": [
+      0.6,
+      0.8,
+      0.6,
+      0.4,
+      0.6,
+      0.6,
+      0.6,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.6,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      0,
+      0,
+      1
+    ],
+    "run_id": 99,
+    "bcs_trajectory": [
+      0.8,
+      0.6,
+      0.6,
+      0.4,
+      0.4,
+      0.4,
+      0.6,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.55,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      0,
+      0,
+      1
+    ],
+    "run_id": 100,
+    "bcs_trajectory": [
+      0.4,
+      0.6,
+      0.4,
+      0.6,
+      0.6,
+      0.4,
+      0.4,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.475,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "run_id": 101,
+    "bcs_trajectory": [
+      0.6,
+      0.4,
+      0.6,
+      0.6,
+      0.4,
+      0.6,
+      0.8,
+      1.0
+    ],
+    "final_bcs": 1.0,
+    "mean_bcs": 0.625,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "run_id": 102,
+    "bcs_trajectory": [
+      0.4,
+      0.6,
+      0.4,
+      0.6,
+      0.4,
+      0.8,
+      0.6,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.525,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "run_id": 103,
+    "bcs_trajectory": [
+      0.8,
+      0.8,
+      0.4,
+      0.8,
+      0.4,
+      0.6,
+      0.4,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.6,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "run_id": 104,
+    "bcs_trajectory": [
+      0.6,
+      0.6,
+      0.6,
+      0.4,
+      0.8,
+      0.4,
+      0.6,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.575,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "run_id": 105,
+    "bcs_trajectory": [
+      0.6,
+      0.6,
+      0.6,
+      0.4,
+      0.6,
+      0.6,
+      0.4,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.55,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "run_id": 106,
+    "bcs_trajectory": [
+      0.4,
+      0.6,
+      0.4,
+      0.6,
+      0.6,
+      0.8,
+      0.6,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.55,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "run_id": 107,
+    "bcs_trajectory": [
+      0.4,
+      0.4,
+      0.6,
+      0.6,
+      0.4,
+      0.6,
+      0.4,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.475,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "run_id": 108,
+    "bcs_trajectory": [
+      0.6,
+      0.8,
+      0.4,
+      0.6,
+      0.6,
+      1.0,
+      0.4,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.6,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "run_id": 109,
+    "bcs_trajectory": [
+      0.4,
+      0.4,
+      0.6,
+      0.6,
+      0.4,
+      0.4,
+      0.6,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.475,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "run_id": 110,
+    "bcs_trajectory": [
+      0.6,
+      0.4,
+      0.8,
+      0.6,
+      0.6,
+      0.4,
+      0.6,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.55,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      0,
+      1,
+      1
+    ],
+    "run_id": 111,
+    "bcs_trajectory": [
+      0.4,
+      0.8,
+      0.4,
+      0.6,
+      0.6,
+      1.0,
+      0.6,
+      0.8
+    ],
+    "final_bcs": 0.8,
+    "mean_bcs": 0.65,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      0,
+      1,
+      1
+    ],
+    "run_id": 112,
+    "bcs_trajectory": [
+      0.6,
+      0.8,
+      0.4,
+      0.6,
+      0.4,
+      0.8,
+      0.6,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.6,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      0,
+      1,
+      1
+    ],
+    "run_id": 113,
+    "bcs_trajectory": [
+      0.8,
+      0.6,
+      0.6,
+      0.6,
+      0.6,
+      0.8,
+      0.4,
+      0.8
+    ],
+    "final_bcs": 0.8,
+    "mean_bcs": 0.65,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      0,
+      1,
+      1
+    ],
+    "run_id": 114,
+    "bcs_trajectory": [
+      0.6,
+      0.4,
+      0.6,
+      0.4,
+      0.8,
+      0.6,
+      0.4,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.55,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      0,
+      1,
+      1
+    ],
+    "run_id": 115,
+    "bcs_trajectory": [
+      0.6,
+      0.6,
+      0.4,
+      0.4,
+      0.6,
+      0.4,
+      0.6,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.5,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      0,
+      1,
+      1
+    ],
+    "run_id": 116,
+    "bcs_trajectory": [
+      0.4,
+      0.6,
+      0.6,
+      0.6,
+      0.8,
+      0.6,
+      0.6,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.575,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      0,
+      1,
+      1
+    ],
+    "run_id": 117,
+    "bcs_trajectory": [
+      0.4,
+      0.6,
+      0.6,
+      0.8,
+      0.6,
+      0.6,
+      0.6,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.575,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      0,
+      1,
+      1
+    ],
+    "run_id": 118,
+    "bcs_trajectory": [
+      0.4,
+      0.4,
+      0.4,
+      0.6,
+      0.8,
+      0.4,
+      0.4,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.5,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      0,
+      1,
+      1
+    ],
+    "run_id": 119,
+    "bcs_trajectory": [
+      0.4,
+      0.6,
+      0.4,
+      0.6,
+      0.4,
+      0.6,
+      0.4,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.5,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      0,
+      1,
+      1
+    ],
+    "run_id": 120,
+    "bcs_trajectory": [
+      0.6,
+      0.6,
+      0.4,
+      0.4,
+      0.6,
+      0.6,
+      0.6,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.525,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "run_id": 121,
+    "bcs_trajectory": [
+      0.6,
+      0.8,
+      0.8,
+      0.4,
+      0.6,
+      0.6,
+      0.8,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.65,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "run_id": 122,
+    "bcs_trajectory": [
+      0.8,
+      0.6,
+      0.6,
+      0.6,
+      0.6,
+      0.4,
+      0.6,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.6,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "run_id": 123,
+    "bcs_trajectory": [
+      0.6,
+      0.6,
+      0.4,
+      0.6,
+      0.8,
+      0.6,
+      0.6,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.6,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "run_id": 124,
+    "bcs_trajectory": [
+      0.6,
+      0.6,
+      0.4,
+      0.6,
+      0.6,
+      0.4,
+      0.6,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.525,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "run_id": 125,
+    "bcs_trajectory": [
+      0.6,
+      0.6,
+      0.8,
+      0.6,
+      0.4,
+      0.4,
+      0.4,
+      1.0
+    ],
+    "final_bcs": 1.0,
+    "mean_bcs": 0.6,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "run_id": 126,
+    "bcs_trajectory": [
+      0.4,
+      0.6,
+      0.6,
+      0.4,
+      0.4,
+      0.6,
+      0.4,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.5,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "run_id": 127,
+    "bcs_trajectory": [
+      0.6,
+      0.6,
+      0.6,
+      0.6,
+      0.4,
+      0.8,
+      0.6,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.6,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "run_id": 128,
+    "bcs_trajectory": [
+      0.6,
+      0.6,
+      0.4,
+      0.6,
+      0.4,
+      0.4,
+      0.6,
+      0.8
+    ],
+    "final_bcs": 0.8,
+    "mean_bcs": 0.55,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "run_id": 129,
+    "bcs_trajectory": [
+      0.4,
+      0.6,
+      0.8,
+      1.0,
+      0.6,
+      0.8,
+      0.6,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.65,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "run_id": 130,
+    "bcs_trajectory": [
+      0.8,
+      0.6,
+      0.6,
+      0.6,
+      0.4,
+      0.6,
+      0.4,
+      0.8
+    ],
+    "final_bcs": 0.8,
+    "mean_bcs": 0.6,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      1,
+      0,
+      1
+    ],
+    "run_id": 131,
+    "bcs_trajectory": [
+      0.6,
+      0.6,
+      0.6,
+      0.4,
+      0.6,
+      0.6,
+      0.8,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.6,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      1,
+      0,
+      1
+    ],
+    "run_id": 132,
+    "bcs_trajectory": [
+      0.4,
+      0.6,
+      0.4,
+      0.6,
+      0.6,
+      0.6,
+      0.8,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.55,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      1,
+      0,
+      1
+    ],
+    "run_id": 133,
+    "bcs_trajectory": [
+      0.4,
+      0.4,
+      0.6,
+      0.6,
+      0.4,
+      0.6,
+      0.8,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.525,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      1,
+      0,
+      1
+    ],
+    "run_id": 134,
+    "bcs_trajectory": [
+      0.4,
+      0.4,
+      0.6,
+      0.8,
+      0.4,
+      0.6,
+      0.6,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.55,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      1,
+      0,
+      1
+    ],
+    "run_id": 135,
+    "bcs_trajectory": [
+      0.4,
+      0.6,
+      0.6,
+      0.6,
+      0.8,
+      0.4,
+      0.6,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.575,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      1,
+      0,
+      1
+    ],
+    "run_id": 136,
+    "bcs_trajectory": [
+      0.4,
+      0.6,
+      0.6,
+      0.4,
+      0.6,
+      0.8,
+      0.8,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.575,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      1,
+      0,
+      1
+    ],
+    "run_id": 137,
+    "bcs_trajectory": [
+      0.4,
+      0.4,
+      0.4,
+      0.8,
+      0.4,
+      0.4,
+      0.6,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.475,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      1,
+      0,
+      1
+    ],
+    "run_id": 138,
+    "bcs_trajectory": [
+      1.0,
+      0.4,
+      0.4,
+      0.6,
+      0.4,
+      0.6,
+      0.4,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.525,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      1,
+      0,
+      1
+    ],
+    "run_id": 139,
+    "bcs_trajectory": [
+      0.8,
+      0.8,
+      0.6,
+      0.6,
+      0.8,
+      0.8,
+      1.0,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.75,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      1,
+      0,
+      1
+    ],
+    "run_id": 140,
+    "bcs_trajectory": [
+      0.6,
+      0.4,
+      0.6,
+      0.6,
+      0.4,
+      0.4,
+      0.4,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.5,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      1,
+      1,
+      0
+    ],
+    "run_id": 141,
+    "bcs_trajectory": [
+      0.6,
+      0.8,
+      0.8,
+      0.6,
+      0.6,
+      0.6,
+      0.4,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.6,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      1,
+      1,
+      0
+    ],
+    "run_id": 142,
+    "bcs_trajectory": [
+      0.6,
+      0.6,
+      0.4,
+      0.4,
+      0.6,
+      0.6,
+      0.4,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.525,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      1,
+      1,
+      0
+    ],
+    "run_id": 143,
+    "bcs_trajectory": [
+      0.6,
+      0.8,
+      0.6,
+      0.8,
+      0.4,
+      0.6,
+      0.6,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.6,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      1,
+      1,
+      0
+    ],
+    "run_id": 144,
+    "bcs_trajectory": [
+      0.6,
+      0.4,
+      0.6,
+      0.4,
+      0.4,
+      0.6,
+      0.6,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.5,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      1,
+      1,
+      0
+    ],
+    "run_id": 145,
+    "bcs_trajectory": [
+      0.4,
+      0.4,
+      0.4,
+      0.4,
+      0.6,
+      0.6,
+      0.4,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.475,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      1,
+      1,
+      0
+    ],
+    "run_id": 146,
+    "bcs_trajectory": [
+      0.6,
+      0.4,
+      0.8,
+      0.4,
+      0.6,
+      0.4,
+      0.8,
+      0.8
+    ],
+    "final_bcs": 0.8,
+    "mean_bcs": 0.6,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      1,
+      1,
+      0
+    ],
+    "run_id": 147,
+    "bcs_trajectory": [
+      0.8,
+      0.6,
+      0.6,
+      0.4,
+      0.6,
+      0.4,
+      0.8,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.6,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      1,
+      1,
+      0
+    ],
+    "run_id": 148,
+    "bcs_trajectory": [
+      0.6,
+      0.4,
+      0.6,
+      0.4,
+      0.4,
+      0.4,
+      0.4,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.475,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      1,
+      1,
+      0
+    ],
+    "run_id": 149,
+    "bcs_trajectory": [
+      0.6,
+      0.8,
+      0.6,
+      0.4,
+      0.8,
+      0.6,
+      0.4,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.6,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      1,
+      1,
+      0
+    ],
+    "run_id": 150,
+    "bcs_trajectory": [
+      0.6,
+      0.4,
+      0.4,
+      0.6,
+      0.4,
+      0.4,
+      1.0,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.55,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "run_id": 151,
+    "bcs_trajectory": [
+      0.8,
+      0.4,
+      0.4,
+      0.8,
+      0.8,
+      0.6,
+      0.6,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.6,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "run_id": 152,
+    "bcs_trajectory": [
+      0.6,
+      0.6,
+      0.4,
+      0.8,
+      0.6,
+      0.4,
+      0.6,
+      0.8
+    ],
+    "final_bcs": 0.8,
+    "mean_bcs": 0.6,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "run_id": 153,
+    "bcs_trajectory": [
+      0.4,
+      0.4,
+      0.6,
+      0.8,
+      0.6,
+      0.6,
+      0.6,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.55,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "run_id": 154,
+    "bcs_trajectory": [
+      0.6,
+      0.4,
+      0.8,
+      0.8,
+      0.4,
+      0.8,
+      0.4,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.6,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "run_id": 155,
+    "bcs_trajectory": [
+      0.6,
+      0.6,
+      0.4,
+      1.0,
+      0.8,
+      0.6,
+      0.4,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.6,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "run_id": 156,
+    "bcs_trajectory": [
+      0.6,
+      0.6,
+      0.8,
+      0.6,
+      0.4,
+      0.4,
+      0.6,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.575,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "run_id": 157,
+    "bcs_trajectory": [
+      0.4,
+      0.6,
+      0.4,
+      0.4,
+      0.4,
+      0.4,
+      0.4,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.425,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "run_id": 158,
+    "bcs_trajectory": [
+      0.6,
+      0.4,
+      0.6,
+      0.4,
+      0.8,
+      0.4,
+      0.4,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.5,
+    "norm_emerged": true,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "run_id": 159,
+    "bcs_trajectory": [
+      0.6,
+      0.4,
+      0.6,
+      0.6,
+      0.4,
+      0.6,
+      0.8,
+      0.6
+    ],
+    "final_bcs": 0.6,
+    "mean_bcs": 0.575,
+    "norm_emerged": false,
+    "ncp": null
+  },
+  {
+    "condition": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "run_id": 160,
+    "bcs_trajectory": [
+      0.4,
+      0.6,
+      0.6,
+      0.4,
+      0.6,
+      0.4,
+      0.4,
+      0.4
+    ],
+    "final_bcs": 0.4,
+    "mean_bcs": 0.475,
+    "norm_emerged": false,
+    "ncp": null
+  }
+]
