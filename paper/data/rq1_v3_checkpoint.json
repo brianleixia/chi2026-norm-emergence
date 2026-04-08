@@ -1,0 +1,4322 @@
+[
+  {
+    "condition": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "run_id": 1,
+    "bcs_trajectory": [
+      0.125,
+      0.125,
+      0.25,
+      0.375,
+      0.125
+    ],
+    "group_averages": [
+      68.0,
+      59.5,
+      59.75,
+      36.62,
+      61.62
+    ],
+    "final_group_avg": 61.62,
+    "strategic_score": 0,
+    "independence_index": 498.0,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "run_id": 2,
+    "bcs_trajectory": [
+      0.25,
+      0.125,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "group_averages": [
+      58.62,
+      35.88,
+      47.5,
+      43.75,
+      40.25
+    ],
+    "final_group_avg": 40.25,
+    "strategic_score": 0,
+    "independence_index": 794.23,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "run_id": 3,
+    "bcs_trajectory": [
+      0.125,
+      0.375,
+      0.0,
+      0.125,
+      0.375
+    ],
+    "group_averages": [
+      52.0,
+      58.88,
+      55.25,
+      55.12,
+      38.0
+    ],
+    "final_group_avg": 38.0,
+    "strategic_score": 0,
+    "independence_index": 982.0,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "run_id": 4,
+    "bcs_trajectory": [
+      0.25,
+      0.125,
+      0.125,
+      0.25,
+      0.125
+    ],
+    "group_averages": [
+      48.25,
+      49.62,
+      48.62,
+      40.88,
+      54.88
+    ],
+    "final_group_avg": 54.88,
+    "strategic_score": 0,
+    "independence_index": 965.44,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "run_id": 5,
+    "bcs_trajectory": [
+      0.625,
+      0.125,
+      0.0,
+      0.5,
+      0.25
+    ],
+    "group_averages": [
+      62.62,
+      42.0,
+      52.25,
+      51.25,
+      35.62
+    ],
+    "final_group_avg": 35.62,
+    "strategic_score": 0,
+    "independence_index": 471.98,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "run_id": 6,
+    "bcs_trajectory": [
+      0.125,
+      0.375,
+      0.0,
+      0.125,
+      0.375
+    ],
+    "group_averages": [
+      57.12,
+      35.62,
+      51.75,
+      50.5,
+      51.75
+    ],
+    "final_group_avg": 51.75,
+    "strategic_score": 0,
+    "independence_index": 915.61,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "run_id": 7,
+    "bcs_trajectory": [
+      0.5,
+      0.25,
+      0.5,
+      0.625,
+      0.25
+    ],
+    "group_averages": [
+      44.88,
+      71.0,
+      57.88,
+      41.88,
+      61.5
+    ],
+    "final_group_avg": 61.5,
+    "strategic_score": 0,
+    "independence_index": 682.61,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "run_id": 8,
+    "bcs_trajectory": [
+      0.0,
+      0.25,
+      0.125,
+      0.375,
+      0.375
+    ],
+    "group_averages": [
+      48.88,
+      54.25,
+      50.62,
+      37.62,
+      31.25
+    ],
+    "final_group_avg": 31.25,
+    "strategic_score": 0.053,
+    "independence_index": 1205.11,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "run_id": 9,
+    "bcs_trajectory": [
+      0.25,
+      0.25,
+      0.25,
+      0.375,
+      0.5
+    ],
+    "group_averages": [
+      46.75,
+      45.0,
+      51.25,
+      37.12,
+      53.38
+    ],
+    "final_group_avg": 53.38,
+    "strategic_score": 0,
+    "independence_index": 922.19,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "run_id": 10,
+    "bcs_trajectory": [
+      0.125,
+      0.125,
+      0.25,
+      0.125,
+      0.25
+    ],
+    "group_averages": [
+      66.62,
+      64.75,
+      50.88,
+      57.88,
+      49.62
+    ],
+    "final_group_avg": 49.62,
+    "strategic_score": 0,
+    "independence_index": 924.98,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "run_id": 11,
+    "bcs_trajectory": [
+      0.125,
+      0.375,
+      0.25,
+      0.125,
+      0.5
+    ],
+    "group_averages": [
+      61.12,
+      70.88,
+      56.88,
+      43.75,
+      40.0
+    ],
+    "final_group_avg": 40.0,
+    "strategic_score": 0,
+    "independence_index": 1028.36,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "run_id": 12,
+    "bcs_trajectory": [
+      0.25,
+      0.125,
+      0.125,
+      0.25,
+      0.375
+    ],
+    "group_averages": [
+      59.38,
+      60.62,
+      59.62,
+      52.62,
+      59.38
+    ],
+    "final_group_avg": 59.38,
+    "strategic_score": 0,
+    "independence_index": 1090.23,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "run_id": 13,
+    "bcs_trajectory": [
+      0.0,
+      0.25,
+      0.375,
+      0.125,
+      0.125
+    ],
+    "group_averages": [
+      47.25,
+      54.62,
+      48.25,
+      54.5,
+      48.0
+    ],
+    "final_group_avg": 48.0,
+    "strategic_score": 0,
+    "independence_index": 601.94,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "run_id": 14,
+    "bcs_trajectory": [
+      0.25,
+      0.0,
+      0.125,
+      0.25,
+      0.0
+    ],
+    "group_averages": [
+      54.62,
+      70.75,
+      45.12,
+      47.5,
+      58.25
+    ],
+    "final_group_avg": 58.25,
+    "strategic_score": 0,
+    "independence_index": 983.48,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "run_id": 15,
+    "bcs_trajectory": [
+      0.25,
+      0.0,
+      0.0,
+      0.625,
+      0.25
+    ],
+    "group_averages": [
+      51.75,
+      53.88,
+      54.62,
+      29.12,
+      56.75
+    ],
+    "final_group_avg": 56.75,
+    "strategic_score": 0,
+    "independence_index": 872.69,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "run_id": 16,
+    "bcs_trajectory": [
+      0.25,
+      0.125,
+      0.0,
+      0.125,
+      0.125
+    ],
+    "group_averages": [
+      41.0,
+      48.38,
+      45.75,
+      50.25,
+      53.75
+    ],
+    "final_group_avg": 53.75,
+    "strategic_score": 0,
+    "independence_index": 1053.75,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "run_id": 17,
+    "bcs_trajectory": [
+      0.375,
+      0.25,
+      0.125,
+      0.125,
+      0.125
+    ],
+    "group_averages": [
+      49.0,
+      33.88,
+      44.5,
+      45.0,
+      40.62
+    ],
+    "final_group_avg": 40.62,
+    "strategic_score": 0,
+    "independence_index": 197.25,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "run_id": 18,
+    "bcs_trajectory": [
+      0.25,
+      0.125,
+      0.25,
+      0.125,
+      0.25
+    ],
+    "group_averages": [
+      29.88,
+      75.75,
+      30.5,
+      41.0,
+      61.88
+    ],
+    "final_group_avg": 61.88,
+    "strategic_score": 0,
+    "independence_index": 404.61,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "run_id": 19,
+    "bcs_trajectory": [
+      0.625,
+      0.25,
+      0.25,
+      0.375,
+      0.0
+    ],
+    "group_averages": [
+      41.62,
+      49.38,
+      44.25,
+      52.75,
+      58.62
+    ],
+    "final_group_avg": 58.62,
+    "strategic_score": 0,
+    "independence_index": 581.98,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "run_id": 20,
+    "bcs_trajectory": [
+      0.0,
+      0.125,
+      0.375,
+      0.0,
+      0.25
+    ],
+    "group_averages": [
+      61.75,
+      65.62,
+      55.62,
+      62.38,
+      61.38
+    ],
+    "final_group_avg": 61.38,
+    "strategic_score": 0,
+    "independence_index": 800.19,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "run_id": 21,
+    "bcs_trajectory": [
+      0.25,
+      0.0,
+      0.0,
+      0.125,
+      0.125
+    ],
+    "group_averages": [
+      57.88,
+      63.5,
+      52.62,
+      72.88,
+      52.75
+    ],
+    "final_group_avg": 52.75,
+    "strategic_score": 0,
+    "independence_index": 244.36,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "run_id": 22,
+    "bcs_trajectory": [
+      0.125,
+      0.25,
+      0.125,
+      0.625,
+      0.125
+    ],
+    "group_averages": [
+      50.25,
+      48.25,
+      49.25,
+      39.25,
+      55.25
+    ],
+    "final_group_avg": 55.25,
+    "strategic_score": 0,
+    "independence_index": 1572.19,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "run_id": 23,
+    "bcs_trajectory": [
+      0.0,
+      0.125,
+      0.5,
+      0.625,
+      0.375
+    ],
+    "group_averages": [
+      55.5,
+      62.25,
+      41.5,
+      46.0,
+      55.88
+    ],
+    "final_group_avg": 55.88,
+    "strategic_score": 0,
+    "independence_index": 701.0,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "run_id": 24,
+    "bcs_trajectory": [
+      0.25,
+      0.125,
+      0.5,
+      0.125,
+      0.25
+    ],
+    "group_averages": [
+      57.88,
+      32.5,
+      44.75,
+      52.38,
+      50.75
+    ],
+    "final_group_avg": 50.75,
+    "strategic_score": 0,
+    "independence_index": 566.61,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "run_id": 25,
+    "bcs_trajectory": [
+      0.25,
+      0.25,
+      0.125,
+      0.125,
+      0.25
+    ],
+    "group_averages": [
+      54.75,
+      49.5,
+      58.12,
+      36.38,
+      47.75
+    ],
+    "final_group_avg": 47.75,
+    "strategic_score": 0,
+    "independence_index": 1023.19,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "run_id": 26,
+    "bcs_trajectory": [
+      0.375,
+      0.5,
+      0.0,
+      0.25,
+      0.5
+    ],
+    "group_averages": [
+      53.38,
+      39.0,
+      45.38,
+      43.38,
+      51.12
+    ],
+    "final_group_avg": 51.12,
+    "strategic_score": 0,
+    "independence_index": 1143.73,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "run_id": 27,
+    "bcs_trajectory": [
+      0.375,
+      0.375,
+      0.0,
+      0.25,
+      0.25
+    ],
+    "group_averages": [
+      38.88,
+      51.5,
+      45.12,
+      61.88,
+      42.88
+    ],
+    "final_group_avg": 42.88,
+    "strategic_score": 0,
+    "independence_index": 354.61,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "run_id": 28,
+    "bcs_trajectory": [
+      0.125,
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "group_averages": [
+      62.88,
+      51.25,
+      61.88,
+      44.12,
+      64.12
+    ],
+    "final_group_avg": 64.12,
+    "strategic_score": 0,
+    "independence_index": 999.86,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "run_id": 29,
+    "bcs_trajectory": [
+      0.25,
+      0.0,
+      0.5,
+      0.25,
+      0.625
+    ],
+    "group_averages": [
+      33.5,
+      60.88,
+      54.0,
+      65.5,
+      35.0
+    ],
+    "final_group_avg": 35.0,
+    "strategic_score": 0,
+    "independence_index": 817.5,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "run_id": 30,
+    "bcs_trajectory": [
+      0.375,
+      0.375,
+      0.25,
+      0.25,
+      0.125
+    ],
+    "group_averages": [
+      41.38,
+      42.5,
+      50.25,
+      41.88,
+      57.25
+    ],
+    "final_group_avg": 57.25,
+    "strategic_score": 0,
+    "independence_index": 455.73,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "run_id": 31,
+    "bcs_trajectory": [
+      0.25,
+      0.375,
+      0.375,
+      0.0,
+      0.125
+    ],
+    "group_averages": [
+      56.38,
+      41.75,
+      42.25,
+      52.0,
+      50.38
+    ],
+    "final_group_avg": 50.38,
+    "strategic_score": 0,
+    "independence_index": 623.48,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "run_id": 32,
+    "bcs_trajectory": [
+      0.25,
+      0.0,
+      0.125,
+      0.625,
+      0.125
+    ],
+    "group_averages": [
+      50.5,
+      64.75,
+      70.38,
+      29.62,
+      52.88
+    ],
+    "final_group_avg": 52.88,
+    "strategic_score": 0,
+    "independence_index": 731.75,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "run_id": 33,
+    "bcs_trajectory": [
+      0.0,
+      0.5,
+      0.5,
+      0.0,
+      0.25
+    ],
+    "group_averages": [
+      39.88,
+      40.12,
+      44.75,
+      50.0,
+      34.75
+    ],
+    "final_group_avg": 34.75,
+    "strategic_score": 0,
+    "independence_index": 831.86,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "run_id": 34,
+    "bcs_trajectory": [
+      0.375,
+      0.125,
+      0.125,
+      0.25,
+      0.375
+    ],
+    "group_averages": [
+      52.0,
+      44.62,
+      50.5,
+      41.0,
+      50.38
+    ],
+    "final_group_avg": 50.38,
+    "strategic_score": 0,
+    "independence_index": 930.75,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "run_id": 35,
+    "bcs_trajectory": [
+      0.0,
+      0.25,
+      0.125,
+      0.375,
+      0.375
+    ],
+    "group_averages": [
+      53.88,
+      50.12,
+      53.5,
+      37.25,
+      40.0
+    ],
+    "final_group_avg": 40.0,
+    "strategic_score": 0,
+    "independence_index": 1242.11,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "run_id": 36,
+    "bcs_trajectory": [
+      0.125,
+      0.125,
+      0.125,
+      0.25,
+      0.25
+    ],
+    "group_averages": [
+      59.12,
+      60.25,
+      51.38,
+      63.12,
+      45.12
+    ],
+    "final_group_avg": 45.12,
+    "strategic_score": 0,
+    "independence_index": 875.11,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "run_id": 37,
+    "bcs_trajectory": [
+      0.25,
+      0.25,
+      0.5,
+      0.25,
+      0.375
+    ],
+    "group_averages": [
+      56.25,
+      57.88,
+      57.75,
+      45.25,
+      45.25
+    ],
+    "final_group_avg": 45.25,
+    "strategic_score": 0,
+    "independence_index": 564.94,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "run_id": 38,
+    "bcs_trajectory": [
+      0.375,
+      0.125,
+      0.375,
+      0.25,
+      0.0
+    ],
+    "group_averages": [
+      51.25,
+      53.0,
+      49.38,
+      48.62,
+      55.62
+    ],
+    "final_group_avg": 55.62,
+    "strategic_score": 0,
+    "independence_index": 1013.19,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "run_id": 39,
+    "bcs_trajectory": [
+      0.25,
+      0.125,
+      0.125,
+      0.125,
+      0.375
+    ],
+    "group_averages": [
+      55.62,
+      56.88,
+      58.5,
+      59.5,
+      66.25
+    ],
+    "final_group_avg": 66.25,
+    "strategic_score": 0,
+    "independence_index": 670.48,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "run_id": 40,
+    "bcs_trajectory": [
+      0.0,
+      0.0,
+      0.25,
+      0.5,
+      0.0
+    ],
+    "group_averages": [
+      53.0,
+      65.25,
+      47.12,
+      61.12,
+      46.25
+    ],
+    "final_group_avg": 46.25,
+    "strategic_score": 0,
+    "independence_index": 1629.25,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "run_id": 41,
+    "bcs_trajectory": [
+      0.25,
+      0.125,
+      0.0,
+      0.25,
+      0.125
+    ],
+    "group_averages": [
+      53.88,
+      44.62,
+      61.38,
+      34.12,
+      57.62
+    ],
+    "final_group_avg": 57.62,
+    "strategic_score": 0,
+    "independence_index": 644.86,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "run_id": 42,
+    "bcs_trajectory": [
+      0.0,
+      0.25,
+      0.25,
+      0.375,
+      0.25
+    ],
+    "group_averages": [
+      74.62,
+      60.25,
+      44.12,
+      35.38,
+      41.12
+    ],
+    "final_group_avg": 41.12,
+    "strategic_score": 0,
+    "independence_index": 514.73,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "run_id": 43,
+    "bcs_trajectory": [
+      0.25,
+      0.25,
+      0.5,
+      0.25,
+      0.25
+    ],
+    "group_averages": [
+      54.88,
+      40.62,
+      44.62,
+      58.5,
+      68.12
+    ],
+    "final_group_avg": 68.12,
+    "strategic_score": 0,
+    "independence_index": 761.86,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "run_id": 44,
+    "bcs_trajectory": [
+      0.25,
+      0.125,
+      0.375,
+      0.0,
+      0.125
+    ],
+    "group_averages": [
+      49.75,
+      36.38,
+      40.25,
+      50.62,
+      49.62
+    ],
+    "final_group_avg": 49.62,
+    "strategic_score": 0,
+    "independence_index": 914.69,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "run_id": 45,
+    "bcs_trajectory": [
+      0.125,
+      0.125,
+      0.125,
+      0.375,
+      0.125
+    ],
+    "group_averages": [
+      58.25,
+      59.75,
+      50.5,
+      47.5,
+      62.12
+    ],
+    "final_group_avg": 62.12,
+    "strategic_score": 0,
+    "independence_index": 552.69,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "run_id": 46,
+    "bcs_trajectory": [
+      0.625,
+      0.375,
+      0.25,
+      0.125,
+      0.25
+    ],
+    "group_averages": [
+      30.12,
+      34.88,
+      46.25,
+      56.0,
+      58.38
+    ],
+    "final_group_avg": 58.38,
+    "strategic_score": 0,
+    "independence_index": 113.11,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "run_id": 47,
+    "bcs_trajectory": [
+      0.375,
+      0.5,
+      0.25,
+      0.125,
+      0.25
+    ],
+    "group_averages": [
+      37.12,
+      34.12,
+      50.38,
+      45.62,
+      52.12
+    ],
+    "final_group_avg": 52.12,
+    "strategic_score": 0,
+    "independence_index": 967.36,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "run_id": 48,
+    "bcs_trajectory": [
+      0.125,
+      0.125,
+      0.375,
+      0.375,
+      0.375
+    ],
+    "group_averages": [
+      53.5,
+      44.88,
+      53.0,
+      40.0,
+      63.25
+    ],
+    "final_group_avg": 63.25,
+    "strategic_score": 0,
+    "independence_index": 891.75,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "run_id": 49,
+    "bcs_trajectory": [
+      0.125,
+      0.25,
+      0.125,
+      0.125,
+      0.0
+    ],
+    "group_averages": [
+      51.25,
+      40.88,
+      40.12,
+      45.12,
+      44.12
+    ],
+    "final_group_avg": 44.12,
+    "strategic_score": 0,
+    "independence_index": 768.69,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "run_id": 50,
+    "bcs_trajectory": [
+      0.125,
+      0.25,
+      0.5,
+      0.25,
+      0.375
+    ],
+    "group_averages": [
+      53.75,
+      45.0,
+      43.25,
+      43.0,
+      48.5
+    ],
+    "final_group_avg": 48.5,
+    "strategic_score": 0,
+    "independence_index": 870.69,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "run_id": 51,
+    "bcs_trajectory": [
+      0.375,
+      0.125,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "group_averages": [
+      41.75,
+      49.5,
+      51.38,
+      52.5,
+      60.88
+    ],
+    "final_group_avg": 60.88,
+    "strategic_score": 0,
+    "independence_index": 474.44,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "run_id": 52,
+    "bcs_trajectory": [
+      0.25,
+      0.125,
+      0.0,
+      0.375,
+      0.125
+    ],
+    "group_averages": [
+      59.12,
+      43.62,
+      43.5,
+      43.62,
+      43.25
+    ],
+    "final_group_avg": 43.25,
+    "strategic_score": 0,
+    "independence_index": 1207.86,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "run_id": 53,
+    "bcs_trajectory": [
+      0.25,
+      0.25,
+      0.25,
+      0.375,
+      0.25
+    ],
+    "group_averages": [
+      69.25,
+      61.25,
+      60.5,
+      47.62,
+      55.38
+    ],
+    "final_group_avg": 55.38,
+    "strategic_score": 0,
+    "independence_index": 598.19,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "run_id": 54,
+    "bcs_trajectory": [
+      0.25,
+      0.25,
+      0.25,
+      0.375,
+      0.5
+    ],
+    "group_averages": [
+      65.5,
+      56.62,
+      45.0,
+      46.25,
+      41.0
+    ],
+    "final_group_avg": 41.0,
+    "strategic_score": 0,
+    "independence_index": 616.25,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "run_id": 55,
+    "bcs_trajectory": [
+      0.125,
+      0.0,
+      0.125,
+      0.25,
+      0.125
+    ],
+    "group_averages": [
+      61.88,
+      61.12,
+      66.5,
+      60.0,
+      40.25
+    ],
+    "final_group_avg": 40.25,
+    "strategic_score": 0,
+    "independence_index": 955.11,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "run_id": 56,
+    "bcs_trajectory": [
+      0.375,
+      0.375,
+      0.0,
+      0.125,
+      0.25
+    ],
+    "group_averages": [
+      29.12,
+      32.62,
+      56.38,
+      53.5,
+      46.25
+    ],
+    "final_group_avg": 46.25,
+    "strategic_score": 0,
+    "independence_index": 724.36,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "run_id": 57,
+    "bcs_trajectory": [
+      0.25,
+      0.25,
+      0.375,
+      0.0,
+      0.375
+    ],
+    "group_averages": [
+      43.0,
+      59.5,
+      58.38,
+      53.62,
+      55.0
+    ],
+    "final_group_avg": 55.0,
+    "strategic_score": 0,
+    "independence_index": 952.5,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "run_id": 58,
+    "bcs_trajectory": [
+      0.625,
+      0.125,
+      0.0,
+      0.375,
+      0.25
+    ],
+    "group_averages": [
+      51.38,
+      66.12,
+      46.5,
+      45.25,
+      46.25
+    ],
+    "final_group_avg": 46.25,
+    "strategic_score": 0,
+    "independence_index": 468.98,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "run_id": 59,
+    "bcs_trajectory": [
+      0.125,
+      0.375,
+      0.125,
+      0.25,
+      0.125
+    ],
+    "group_averages": [
+      47.12,
+      38.12,
+      31.5,
+      40.12,
+      60.5
+    ],
+    "final_group_avg": 60.5,
+    "strategic_score": 0,
+    "independence_index": 988.36,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "run_id": 60,
+    "bcs_trajectory": [
+      0.375,
+      0.125,
+      0.125,
+      0.0,
+      0.25
+    ],
+    "group_averages": [
+      47.88,
+      37.0,
+      47.88,
+      41.12,
+      44.25
+    ],
+    "final_group_avg": 44.25,
+    "strategic_score": 0,
+    "independence_index": 783.36,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      1,
+      1,
+      0
+    ],
+    "run_id": 61,
+    "bcs_trajectory": [
+      0.25,
+      0.0,
+      0.25,
+      0.375,
+      0.25
+    ],
+    "group_averages": [
+      36.75,
+      72.12,
+      47.75,
+      49.75,
+      58.5
+    ],
+    "final_group_avg": 58.5,
+    "strategic_score": 0,
+    "independence_index": 505.69,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      1,
+      1,
+      0
+    ],
+    "run_id": 62,
+    "bcs_trajectory": [
+      0.25,
+      0.0,
+      0.375,
+      0.375,
+      0.375
+    ],
+    "group_averages": [
+      62.5,
+      40.0,
+      41.5,
+      49.62,
+      43.0
+    ],
+    "final_group_avg": 43.0,
+    "strategic_score": 0,
+    "independence_index": 598.25,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      1,
+      1,
+      0
+    ],
+    "run_id": 63,
+    "bcs_trajectory": [
+      0.375,
+      0.375,
+      0.25,
+      0.0,
+      0.5
+    ],
+    "group_averages": [
+      43.12,
+      20.88,
+      39.38,
+      71.0,
+      52.25
+    ],
+    "final_group_avg": 52.25,
+    "strategic_score": 0,
+    "independence_index": 393.61,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      1,
+      1,
+      0
+    ],
+    "run_id": 64,
+    "bcs_trajectory": [
+      0.25,
+      0.125,
+      0.25,
+      0.375,
+      0.125
+    ],
+    "group_averages": [
+      41.0,
+      53.62,
+      59.75,
+      55.12,
+      58.75
+    ],
+    "final_group_avg": 58.75,
+    "strategic_score": 0,
+    "independence_index": 796.75,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      1,
+      1,
+      0
+    ],
+    "run_id": 65,
+    "bcs_trajectory": [
+      0.375,
+      0.25,
+      0.0,
+      0.0,
+      0.125
+    ],
+    "group_averages": [
+      41.12,
+      60.75,
+      48.12,
+      50.75,
+      59.62
+    ],
+    "final_group_avg": 59.62,
+    "strategic_score": 0,
+    "independence_index": 722.11,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      1,
+      1,
+      0
+    ],
+    "run_id": 66,
+    "bcs_trajectory": [
+      0.125,
+      0.125,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "group_averages": [
+      70.25,
+      50.88,
+      44.62,
+      66.38,
+      45.75
+    ],
+    "final_group_avg": 45.75,
+    "strategic_score": 0,
+    "independence_index": 558.94,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      1,
+      1,
+      0
+    ],
+    "run_id": 67,
+    "bcs_trajectory": [
+      0.25,
+      0.0,
+      0.25,
+      0.125,
+      0.125
+    ],
+    "group_averages": [
+      37.75,
+      52.38,
+      64.62,
+      46.38,
+      51.12
+    ],
+    "final_group_avg": 51.12,
+    "strategic_score": 0,
+    "independence_index": 715.69,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      1,
+      1,
+      0
+    ],
+    "run_id": 68,
+    "bcs_trajectory": [
+      0.25,
+      0.25,
+      0.25,
+      0.25,
+      0.375
+    ],
+    "group_averages": [
+      59.62,
+      43.75,
+      38.12,
+      74.25,
+      50.25
+    ],
+    "final_group_avg": 50.25,
+    "strategic_score": 0,
+    "independence_index": 463.98,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      1,
+      1,
+      0
+    ],
+    "run_id": 69,
+    "bcs_trajectory": [
+      0.375,
+      0.25,
+      0.0,
+      0.125,
+      0.0
+    ],
+    "group_averages": [
+      58.12,
+      42.62,
+      42.75,
+      50.62,
+      49.88
+    ],
+    "final_group_avg": 49.88,
+    "strategic_score": 0,
+    "independence_index": 651.86,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      1,
+      1,
+      0
+    ],
+    "run_id": 70,
+    "bcs_trajectory": [
+      0.25,
+      0.125,
+      0.0,
+      0.25,
+      0.125
+    ],
+    "group_averages": [
+      57.62,
+      64.0,
+      55.75,
+      62.88,
+      36.5
+    ],
+    "final_group_avg": 36.5,
+    "strategic_score": 0,
+    "independence_index": 539.73,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "run_id": 71,
+    "bcs_trajectory": [
+      0.0,
+      0.0,
+      0.0,
+      0.25,
+      0.125
+    ],
+    "group_averages": [
+      55.88,
+      47.0,
+      53.5,
+      60.88,
+      55.0
+    ],
+    "final_group_avg": 55.0,
+    "strategic_score": 0,
+    "independence_index": 935.61,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "run_id": 72,
+    "bcs_trajectory": [
+      0.375,
+      0.25,
+      0.375,
+      0.0,
+      0.125
+    ],
+    "group_averages": [
+      42.0,
+      38.62,
+      32.75,
+      50.25,
+      44.62
+    ],
+    "final_group_avg": 44.62,
+    "strategic_score": 0,
+    "independence_index": 767.75,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "run_id": 73,
+    "bcs_trajectory": [
+      0.0,
+      0.0,
+      0.0,
+      0.125,
+      0.125
+    ],
+    "group_averages": [
+      48.0,
+      50.38,
+      70.12,
+      47.0,
+      48.62
+    ],
+    "final_group_avg": 48.62,
+    "strategic_score": 0,
+    "independence_index": 595.25,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "run_id": 74,
+    "bcs_trajectory": [
+      0.375,
+      0.125,
+      0.125,
+      0.125,
+      0.125
+    ],
+    "group_averages": [
+      34.75,
+      42.62,
+      53.12,
+      39.25,
+      71.88
+    ],
+    "final_group_avg": 71.88,
+    "strategic_score": 0,
+    "independence_index": 915.44,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "run_id": 75,
+    "bcs_trajectory": [
+      0.25,
+      0.125,
+      0.0,
+      0.0,
+      0.25
+    ],
+    "group_averages": [
+      55.62,
+      57.38,
+      44.88,
+      55.38,
+      55.12
+    ],
+    "final_group_avg": 55.12,
+    "strategic_score": 0,
+    "independence_index": 484.73,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "run_id": 76,
+    "bcs_trajectory": [
+      0.0,
+      0.0,
+      0.0,
+      0.25,
+      0.375
+    ],
+    "group_averages": [
+      66.88,
+      70.5,
+      56.5,
+      35.38,
+      64.0
+    ],
+    "final_group_avg": 64.0,
+    "strategic_score": 0,
+    "independence_index": 997.11,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "run_id": 77,
+    "bcs_trajectory": [
+      0.25,
+      0.375,
+      0.25,
+      0.25,
+      0.125
+    ],
+    "group_averages": [
+      49.88,
+      32.5,
+      47.75,
+      51.5,
+      55.38
+    ],
+    "final_group_avg": 55.38,
+    "strategic_score": 0,
+    "independence_index": 615.11,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "run_id": 78,
+    "bcs_trajectory": [
+      0.125,
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "group_averages": [
+      70.5,
+      43.38,
+      39.75,
+      48.12,
+      40.88
+    ],
+    "final_group_avg": 40.88,
+    "strategic_score": 0,
+    "independence_index": 794.5,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "run_id": 79,
+    "bcs_trajectory": [
+      0.125,
+      0.125,
+      0.0,
+      0.125,
+      0.25
+    ],
+    "group_averages": [
+      48.62,
+      51.25,
+      64.88,
+      40.62,
+      52.12
+    ],
+    "final_group_avg": 52.12,
+    "strategic_score": 0,
+    "independence_index": 528.23,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "run_id": 80,
+    "bcs_trajectory": [
+      0.125,
+      0.375,
+      0.25,
+      0.0,
+      0.375
+    ],
+    "group_averages": [
+      61.5,
+      24.12,
+      30.88,
+      44.12,
+      46.88
+    ],
+    "final_group_avg": 46.88,
+    "strategic_score": 0,
+    "independence_index": 1254.25,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "run_id": 81,
+    "bcs_trajectory": [
+      0.25,
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "group_averages": [
+      32.12,
+      43.62,
+      65.25,
+      71.38,
+      54.88
+    ],
+    "final_group_avg": 54.88,
+    "strategic_score": 0,
+    "independence_index": 758.11,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "run_id": 82,
+    "bcs_trajectory": [
+      0.375,
+      0.375,
+      0.375,
+      0.25,
+      0.125
+    ],
+    "group_averages": [
+      43.0,
+      49.12,
+      58.38,
+      37.88,
+      41.75
+    ],
+    "final_group_avg": 41.75,
+    "strategic_score": 0,
+    "independence_index": 639.75,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "run_id": 83,
+    "bcs_trajectory": [
+      0.25,
+      0.25,
+      0.0,
+      0.5,
+      0.375
+    ],
+    "group_averages": [
+      33.12,
+      52.62,
+      39.25,
+      57.0,
+      40.25
+    ],
+    "final_group_avg": 40.25,
+    "strategic_score": 0,
+    "independence_index": 596.11,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "run_id": 84,
+    "bcs_trajectory": [
+      0.0,
+      0.25,
+      0.25,
+      0.125,
+      0.0
+    ],
+    "group_averages": [
+      54.0,
+      52.0,
+      51.12,
+      58.62,
+      56.5
+    ],
+    "final_group_avg": 56.5,
+    "strategic_score": 0,
+    "independence_index": 992.5,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "run_id": 85,
+    "bcs_trajectory": [
+      0.375,
+      0.25,
+      0.25,
+      0.375,
+      0.0
+    ],
+    "group_averages": [
+      38.0,
+      42.38,
+      53.5,
+      36.88,
+      59.5
+    ],
+    "final_group_avg": 59.5,
+    "strategic_score": 0,
+    "independence_index": 498.0,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "run_id": 86,
+    "bcs_trajectory": [
+      0.25,
+      0.25,
+      0.125,
+      0.0,
+      0.5
+    ],
+    "group_averages": [
+      35.0,
+      40.75,
+      59.12,
+      55.5,
+      36.0
+    ],
+    "final_group_avg": 36.0,
+    "strategic_score": 0,
+    "independence_index": 895.25,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "run_id": 87,
+    "bcs_trajectory": [
+      0.25,
+      0.125,
+      0.125,
+      0.375,
+      0.125
+    ],
+    "group_averages": [
+      42.88,
+      65.62,
+      45.5,
+      43.5,
+      58.12
+    ],
+    "final_group_avg": 58.12,
+    "strategic_score": 0,
+    "independence_index": 528.86,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "run_id": 88,
+    "bcs_trajectory": [
+      0.125,
+      0.25,
+      0.25,
+      0.0,
+      0.25
+    ],
+    "group_averages": [
+      40.0,
+      47.88,
+      46.5,
+      57.75,
+      45.38
+    ],
+    "final_group_avg": 45.38,
+    "strategic_score": 0,
+    "independence_index": 913.0,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "run_id": 89,
+    "bcs_trajectory": [
+      0.25,
+      0.375,
+      0.125,
+      0.375,
+      0.25
+    ],
+    "group_averages": [
+      46.88,
+      54.5,
+      39.12,
+      46.88,
+      42.12
+    ],
+    "final_group_avg": 42.12,
+    "strategic_score": 0,
+    "independence_index": 1138.61,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "run_id": 90,
+    "bcs_trajectory": [
+      0.125,
+      0.25,
+      0.125,
+      0.125,
+      0.5
+    ],
+    "group_averages": [
+      58.75,
+      50.0,
+      56.38,
+      51.12,
+      51.38
+    ],
+    "final_group_avg": 51.38,
+    "strategic_score": 0,
+    "independence_index": 1228.69,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      0,
+      0,
+      1
+    ],
+    "run_id": 91,
+    "bcs_trajectory": [
+      0.125,
+      0.25,
+      0.125,
+      0.0,
+      0.375
+    ],
+    "group_averages": [
+      64.88,
+      42.25,
+      52.12,
+      53.25,
+      39.25
+    ],
+    "final_group_avg": 39.25,
+    "strategic_score": 0,
+    "independence_index": 598.36,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      0,
+      0,
+      1
+    ],
+    "run_id": 92,
+    "bcs_trajectory": [
+      0.125,
+      0.0,
+      0.0,
+      0.25,
+      0.0
+    ],
+    "group_averages": [
+      63.25,
+      55.75,
+      50.25,
+      44.12,
+      42.62
+    ],
+    "final_group_avg": 42.62,
+    "strategic_score": 0,
+    "independence_index": 1299.19,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      0,
+      0,
+      1
+    ],
+    "run_id": 93,
+    "bcs_trajectory": [
+      0.25,
+      0.375,
+      0.5,
+      0.25,
+      0.25
+    ],
+    "group_averages": [
+      53.88,
+      55.75,
+      42.88,
+      56.62,
+      42.88
+    ],
+    "final_group_avg": 42.88,
+    "strategic_score": 0,
+    "independence_index": 881.11,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      0,
+      0,
+      1
+    ],
+    "run_id": 94,
+    "bcs_trajectory": [
+      0.375,
+      0.375,
+      0.25,
+      0.375,
+      0.125
+    ],
+    "group_averages": [
+      43.38,
+      48.0,
+      68.5,
+      40.38,
+      68.5
+    ],
+    "final_group_avg": 68.5,
+    "strategic_score": 0,
+    "independence_index": 513.48,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      0,
+      0,
+      1
+    ],
+    "run_id": 95,
+    "bcs_trajectory": [
+      0.125,
+      0.375,
+      0.375,
+      0.125,
+      0.5
+    ],
+    "group_averages": [
+      43.75,
+      30.62,
+      63.5,
+      71.5,
+      63.0
+    ],
+    "final_group_avg": 63.0,
+    "strategic_score": 0,
+    "independence_index": 983.19,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      0,
+      0,
+      1
+    ],
+    "run_id": 96,
+    "bcs_trajectory": [
+      0.25,
+      0.25,
+      0.125,
+      0.25,
+      0.25
+    ],
+    "group_averages": [
+      54.0,
+      58.88,
+      47.75,
+      46.75,
+      48.5
+    ],
+    "final_group_avg": 48.5,
+    "strategic_score": 0,
+    "independence_index": 869.75,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      0,
+      0,
+      1
+    ],
+    "run_id": 97,
+    "bcs_trajectory": [
+      0.0,
+      0.125,
+      0.125,
+      0.125,
+      0.25
+    ],
+    "group_averages": [
+      57.62,
+      56.12,
+      72.38,
+      73.0,
+      39.5
+    ],
+    "final_group_avg": 39.5,
+    "strategic_score": 0,
+    "independence_index": 479.73,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      0,
+      0,
+      1
+    ],
+    "run_id": 98,
+    "bcs_trajectory": [
+      0.375,
+      0.125,
+      0.25,
+      0.25,
+      0.0
+    ],
+    "group_averages": [
+      36.38,
+      50.5,
+      55.38,
+      49.5,
+      68.88
+    ],
+    "final_group_avg": 68.88,
+    "strategic_score": 0,
+    "independence_index": 531.23,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      0,
+      0,
+      1
+    ],
+    "run_id": 99,
+    "bcs_trajectory": [
+      0.125,
+      0.125,
+      0.125,
+      0.125,
+      0.125
+    ],
+    "group_averages": [
+      54.25,
+      57.5,
+      62.88,
+      65.0,
+      47.5
+    ],
+    "final_group_avg": 47.5,
+    "strategic_score": 0,
+    "independence_index": 1087.44,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      0,
+      0,
+      1
+    ],
+    "run_id": 100,
+    "bcs_trajectory": [
+      0.125,
+      0.0,
+      0.375,
+      0.375,
+      0.125
+    ],
+    "group_averages": [
+      63.62,
+      70.0,
+      47.25,
+      33.38,
+      65.62
+    ],
+    "final_group_avg": 65.62,
+    "strategic_score": 0,
+    "independence_index": 1056.73,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "run_id": 101,
+    "bcs_trajectory": [
+      0.25,
+      0.375,
+      0.125,
+      0.375,
+      0.125
+    ],
+    "group_averages": [
+      69.75,
+      48.62,
+      45.62,
+      44.38,
+      45.88
+    ],
+    "final_group_avg": 45.88,
+    "strategic_score": 0,
+    "independence_index": 731.69,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "run_id": 102,
+    "bcs_trajectory": [
+      0.125,
+      0.125,
+      0.125,
+      0.125,
+      0.375
+    ],
+    "group_averages": [
+      35.38,
+      58.12,
+      52.12,
+      38.0,
+      51.88
+    ],
+    "final_group_avg": 51.88,
+    "strategic_score": 0,
+    "independence_index": 402.73,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "run_id": 103,
+    "bcs_trajectory": [
+      0.25,
+      0.25,
+      0.25,
+      0.125,
+      0.125
+    ],
+    "group_averages": [
+      51.25,
+      48.88,
+      46.12,
+      55.25,
+      37.75
+    ],
+    "final_group_avg": 37.75,
+    "strategic_score": 0,
+    "independence_index": 456.44,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "run_id": 104,
+    "bcs_trajectory": [
+      0.0,
+      0.5,
+      0.125,
+      0.25,
+      0.0
+    ],
+    "group_averages": [
+      51.75,
+      38.25,
+      56.0,
+      41.38,
+      49.12
+    ],
+    "final_group_avg": 49.12,
+    "strategic_score": 0,
+    "independence_index": 1089.44,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "run_id": 105,
+    "bcs_trajectory": [
+      0.25,
+      0.375,
+      0.25,
+      0.25,
+      0.125
+    ],
+    "group_averages": [
+      31.5,
+      54.0,
+      59.12,
+      37.75,
+      43.75
+    ],
+    "final_group_avg": 43.75,
+    "strategic_score": 0,
+    "independence_index": 611.0,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "run_id": 106,
+    "bcs_trajectory": [
+      0.25,
+      0.375,
+      0.375,
+      0.375,
+      0.125
+    ],
+    "group_averages": [
+      41.0,
+      35.75,
+      53.25,
+      26.88,
+      44.0
+    ],
+    "final_group_avg": 44.0,
+    "strategic_score": 0,
+    "independence_index": 634.0,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "run_id": 107,
+    "bcs_trajectory": [
+      0.0,
+      0.375,
+      0.25,
+      0.25,
+      0.125
+    ],
+    "group_averages": [
+      68.38,
+      43.38,
+      50.12,
+      45.0,
+      45.88
+    ],
+    "final_group_avg": 45.88,
+    "strategic_score": 0,
+    "independence_index": 1111.98,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "run_id": 108,
+    "bcs_trajectory": [
+      0.125,
+      0.375,
+      0.0,
+      0.25,
+      0.25
+    ],
+    "group_averages": [
+      68.62,
+      39.62,
+      74.12,
+      58.62,
+      36.62
+    ],
+    "final_group_avg": 36.62,
+    "strategic_score": 0,
+    "independence_index": 601.23,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "run_id": 109,
+    "bcs_trajectory": [
+      0.0,
+      0.125,
+      0.375,
+      0.625,
+      0.125
+    ],
+    "group_averages": [
+      70.12,
+      57.75,
+      54.38,
+      35.38,
+      68.88
+    ],
+    "final_group_avg": 68.88,
+    "strategic_score": 0,
+    "independence_index": 908.36,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "run_id": 110,
+    "bcs_trajectory": [
+      0.25,
+      0.375,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "group_averages": [
+      38.62,
+      42.5,
+      39.75,
+      56.88,
+      42.25
+    ],
+    "final_group_avg": 42.25,
+    "strategic_score": 0,
+    "independence_index": 804.48,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      0,
+      1,
+      1
+    ],
+    "run_id": 111,
+    "bcs_trajectory": [
+      0.5,
+      0.25,
+      0.125,
+      0.5,
+      0.375
+    ],
+    "group_averages": [
+      36.88,
+      48.0,
+      46.62,
+      40.88,
+      53.62
+    ],
+    "final_group_avg": 53.62,
+    "strategic_score": 0,
+    "independence_index": 820.11,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      0,
+      1,
+      1
+    ],
+    "run_id": 112,
+    "bcs_trajectory": [
+      0.125,
+      0.0,
+      0.5,
+      0.25,
+      0.0
+    ],
+    "group_averages": [
+      54.5,
+      49.62,
+      49.38,
+      63.88,
+      39.38
+    ],
+    "final_group_avg": 39.38,
+    "strategic_score": 0,
+    "independence_index": 928.75,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      0,
+      1,
+      1
+    ],
+    "run_id": 113,
+    "bcs_trajectory": [
+      0.25,
+      0.25,
+      0.25,
+      0.25,
+      0.0
+    ],
+    "group_averages": [
+      50.25,
+      71.5,
+      38.75,
+      24.5,
+      61.38
+    ],
+    "final_group_avg": 61.38,
+    "strategic_score": 0,
+    "independence_index": 646.94,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      0,
+      1,
+      1
+    ],
+    "run_id": 114,
+    "bcs_trajectory": [
+      0.0,
+      0.0,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "group_averages": [
+      37.0,
+      40.62,
+      55.88,
+      43.62,
+      60.5
+    ],
+    "final_group_avg": 60.5,
+    "strategic_score": 0,
+    "independence_index": 523.0,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      0,
+      1,
+      1
+    ],
+    "run_id": 115,
+    "bcs_trajectory": [
+      0.125,
+      0.125,
+      0.375,
+      0.125,
+      0.25
+    ],
+    "group_averages": [
+      41.25,
+      39.12,
+      54.0,
+      69.75,
+      48.88
+    ],
+    "final_group_avg": 48.88,
+    "strategic_score": 0,
+    "independence_index": 476.19,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      0,
+      1,
+      1
+    ],
+    "run_id": 116,
+    "bcs_trajectory": [
+      0.125,
+      0.375,
+      0.25,
+      0.25,
+      0.625
+    ],
+    "group_averages": [
+      49.88,
+      53.0,
+      48.38,
+      35.0,
+      24.5
+    ],
+    "final_group_avg": 24.5,
+    "strategic_score": 0.2576,
+    "independence_index": 460.36,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      0,
+      1,
+      1
+    ],
+    "run_id": 117,
+    "bcs_trajectory": [
+      0.125,
+      0.25,
+      0.375,
+      0.0,
+      0.125
+    ],
+    "group_averages": [
+      56.38,
+      45.12,
+      50.0,
+      63.25,
+      51.25
+    ],
+    "final_group_avg": 51.25,
+    "strategic_score": 0,
+    "independence_index": 556.98,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      0,
+      1,
+      1
+    ],
+    "run_id": 118,
+    "bcs_trajectory": [
+      0.125,
+      0.375,
+      0.125,
+      0.375,
+      0.25
+    ],
+    "group_averages": [
+      50.0,
+      48.88,
+      42.25,
+      35.38,
+      62.88
+    ],
+    "final_group_avg": 62.88,
+    "strategic_score": 0,
+    "independence_index": 1172.0,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      0,
+      1,
+      1
+    ],
+    "run_id": 119,
+    "bcs_trajectory": [
+      0.125,
+      0.0,
+      0.125,
+      0.25,
+      0.25
+    ],
+    "group_averages": [
+      49.38,
+      60.75,
+      67.0,
+      43.5,
+      51.88
+    ],
+    "final_group_avg": 51.88,
+    "strategic_score": 0,
+    "independence_index": 849.73,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      0,
+      1,
+      1
+    ],
+    "run_id": 120,
+    "bcs_trajectory": [
+      0.0,
+      0.125,
+      0.125,
+      0.0,
+      0.125
+    ],
+    "group_averages": [
+      46.5,
+      65.0,
+      44.62,
+      75.0,
+      47.38
+    ],
+    "final_group_avg": 47.38,
+    "strategic_score": 0,
+    "independence_index": 869.5,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "run_id": 121,
+    "bcs_trajectory": [
+      0.375,
+      0.125,
+      0.25,
+      0.25,
+      0.0
+    ],
+    "group_averages": [
+      41.5,
+      74.12,
+      52.0,
+      69.12,
+      47.5
+    ],
+    "final_group_avg": 47.5,
+    "strategic_score": 0,
+    "independence_index": 875.5,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "run_id": 122,
+    "bcs_trajectory": [
+      0.375,
+      0.25,
+      0.125,
+      0.375,
+      0.375
+    ],
+    "group_averages": [
+      56.12,
+      59.62,
+      58.62,
+      56.88,
+      39.75
+    ],
+    "final_group_avg": 39.75,
+    "strategic_score": 0,
+    "independence_index": 629.86,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "run_id": 123,
+    "bcs_trajectory": [
+      0.375,
+      0.25,
+      0.125,
+      0.5,
+      0.25
+    ],
+    "group_averages": [
+      57.25,
+      60.38,
+      59.25,
+      36.25,
+      46.25
+    ],
+    "final_group_avg": 46.25,
+    "strategic_score": 0,
+    "independence_index": 648.69,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "run_id": 124,
+    "bcs_trajectory": [
+      0.0,
+      0.375,
+      0.375,
+      0.5,
+      0.125
+    ],
+    "group_averages": [
+      50.62,
+      51.75,
+      53.12,
+      35.0,
+      53.25
+    ],
+    "final_group_avg": 53.25,
+    "strategic_score": 0,
+    "independence_index": 1308.23,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "run_id": 125,
+    "bcs_trajectory": [
+      0.125,
+      0.0,
+      0.25,
+      0.125,
+      0.25
+    ],
+    "group_averages": [
+      49.0,
+      49.62,
+      58.5,
+      72.25,
+      46.38
+    ],
+    "final_group_avg": 46.38,
+    "strategic_score": 0,
+    "independence_index": 1027.5,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "run_id": 126,
+    "bcs_trajectory": [
+      0.125,
+      0.0,
+      0.0,
+      0.25,
+      0.5
+    ],
+    "group_averages": [
+      56.62,
+      57.62,
+      72.38,
+      53.38,
+      35.62
+    ],
+    "final_group_avg": 35.62,
+    "strategic_score": 0,
+    "independence_index": 1131.48,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "run_id": 127,
+    "bcs_trajectory": [
+      0.375,
+      0.375,
+      0.25,
+      0.375,
+      0.125
+    ],
+    "group_averages": [
+      55.12,
+      52.25,
+      56.5,
+      66.88,
+      50.0
+    ],
+    "final_group_avg": 50.0,
+    "strategic_score": 0,
+    "independence_index": 437.86,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "run_id": 128,
+    "bcs_trajectory": [
+      0.125,
+      0.25,
+      0.25,
+      0.25,
+      0.125
+    ],
+    "group_averages": [
+      54.38,
+      64.5,
+      55.88,
+      29.75,
+      44.75
+    ],
+    "final_group_avg": 44.75,
+    "strategic_score": 0,
+    "independence_index": 873.48,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "run_id": 129,
+    "bcs_trajectory": [
+      0.5,
+      0.125,
+      0.0,
+      0.375,
+      0.125
+    ],
+    "group_averages": [
+      44.38,
+      46.25,
+      50.38,
+      45.38,
+      57.5
+    ],
+    "final_group_avg": 57.5,
+    "strategic_score": 0,
+    "independence_index": 385.73,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "run_id": 130,
+    "bcs_trajectory": [
+      0.125,
+      0.25,
+      0.25,
+      0.0,
+      0.25
+    ],
+    "group_averages": [
+      64.5,
+      58.38,
+      56.12,
+      53.5,
+      57.0
+    ],
+    "final_group_avg": 57.0,
+    "strategic_score": 0,
+    "independence_index": 994.75,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      1,
+      0,
+      1
+    ],
+    "run_id": 131,
+    "bcs_trajectory": [
+      0.375,
+      0.25,
+      0.25,
+      0.125,
+      0.125
+    ],
+    "group_averages": [
+      43.12,
+      58.25,
+      46.12,
+      53.0,
+      47.5
+    ],
+    "final_group_avg": 47.5,
+    "strategic_score": 0,
+    "independence_index": 355.36,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      1,
+      0,
+      1
+    ],
+    "run_id": 132,
+    "bcs_trajectory": [
+      0.0,
+      0.125,
+      0.25,
+      0.375,
+      0.25
+    ],
+    "group_averages": [
+      50.12,
+      55.25,
+      47.38,
+      49.25,
+      29.25
+    ],
+    "final_group_avg": 29.25,
+    "strategic_score": 0.1136,
+    "independence_index": 933.11,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      1,
+      0,
+      1
+    ],
+    "run_id": 133,
+    "bcs_trajectory": [
+      0.125,
+      0.25,
+      0.375,
+      0.375,
+      0.25
+    ],
+    "group_averages": [
+      47.25,
+      48.38,
+      35.25,
+      50.38,
+      47.25
+    ],
+    "final_group_avg": 47.25,
+    "strategic_score": 0,
+    "independence_index": 707.94,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      1,
+      0,
+      1
+    ],
+    "run_id": 134,
+    "bcs_trajectory": [
+      0.25,
+      0.125,
+      0.5,
+      0.375,
+      0.25
+    ],
+    "group_averages": [
+      41.75,
+      41.88,
+      22.25,
+      46.88,
+      60.5
+    ],
+    "final_group_avg": 60.5,
+    "strategic_score": 0,
+    "independence_index": 336.94,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      1,
+      0,
+      1
+    ],
+    "run_id": 135,
+    "bcs_trajectory": [
+      0.25,
+      0.125,
+      0.25,
+      0.25,
+      0.125
+    ],
+    "group_averages": [
+      36.5,
+      44.38,
+      53.38,
+      52.25,
+      63.12
+    ],
+    "final_group_avg": 63.12,
+    "strategic_score": 0,
+    "independence_index": 706.25,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      1,
+      0,
+      1
+    ],
+    "run_id": 136,
+    "bcs_trajectory": [
+      0.25,
+      0.125,
+      0.375,
+      0.0,
+      0.375
+    ],
+    "group_averages": [
+      49.88,
+      50.12,
+      36.88,
+      62.12,
+      50.0
+    ],
+    "final_group_avg": 50.0,
+    "strategic_score": 0,
+    "independence_index": 814.61,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      1,
+      0,
+      1
+    ],
+    "run_id": 137,
+    "bcs_trajectory": [
+      0.375,
+      0.625,
+      0.125,
+      0.125,
+      0.125
+    ],
+    "group_averages": [
+      50.12,
+      39.88,
+      39.5,
+      57.75,
+      61.62
+    ],
+    "final_group_avg": 61.62,
+    "strategic_score": 0,
+    "independence_index": 834.11,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      1,
+      0,
+      1
+    ],
+    "run_id": 138,
+    "bcs_trajectory": [
+      0.0,
+      0.25,
+      0.125,
+      0.25,
+      0.375
+    ],
+    "group_averages": [
+      42.62,
+      53.25,
+      64.12,
+      47.75,
+      49.38
+    ],
+    "final_group_avg": 49.38,
+    "strategic_score": 0,
+    "independence_index": 351.23,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      1,
+      0,
+      1
+    ],
+    "run_id": 139,
+    "bcs_trajectory": [
+      0.375,
+      0.0,
+      0.25,
+      0.125,
+      0.5
+    ],
+    "group_averages": [
+      40.0,
+      57.12,
+      49.88,
+      46.62,
+      51.25
+    ],
+    "final_group_avg": 51.25,
+    "strategic_score": 0,
+    "independence_index": 682.75,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      1,
+      0,
+      1
+    ],
+    "run_id": 140,
+    "bcs_trajectory": [
+      0.125,
+      0.0,
+      0.125,
+      0.25,
+      0.125
+    ],
+    "group_averages": [
+      66.5,
+      52.0,
+      48.88,
+      51.5,
+      53.38
+    ],
+    "final_group_avg": 53.38,
+    "strategic_score": 0,
+    "independence_index": 263.5,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      1,
+      1,
+      0
+    ],
+    "run_id": 141,
+    "bcs_trajectory": [
+      0.0,
+      0.375,
+      0.25,
+      0.125,
+      0.125
+    ],
+    "group_averages": [
+      65.5,
+      29.0,
+      45.88,
+      53.25,
+      54.62
+    ],
+    "final_group_avg": 54.62,
+    "strategic_score": 0,
+    "independence_index": 109.0,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      1,
+      1,
+      0
+    ],
+    "run_id": 142,
+    "bcs_trajectory": [
+      0.25,
+      0.125,
+      0.375,
+      0.25,
+      0.0
+    ],
+    "group_averages": [
+      50.38,
+      73.5,
+      62.25,
+      43.75,
+      33.12
+    ],
+    "final_group_avg": 33.12,
+    "strategic_score": 0,
+    "independence_index": 826.23,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      1,
+      1,
+      0
+    ],
+    "run_id": 143,
+    "bcs_trajectory": [
+      0.0,
+      0.25,
+      0.375,
+      0.25,
+      0.375
+    ],
+    "group_averages": [
+      36.75,
+      49.0,
+      40.38,
+      51.25,
+      37.38
+    ],
+    "final_group_avg": 37.38,
+    "strategic_score": 0,
+    "independence_index": 1152.94,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      1,
+      1,
+      0
+    ],
+    "run_id": 144,
+    "bcs_trajectory": [
+      0.25,
+      0.375,
+      0.25,
+      0.375,
+      0.25
+    ],
+    "group_averages": [
+      41.25,
+      28.12,
+      67.38,
+      60.38,
+      49.12
+    ],
+    "final_group_avg": 49.12,
+    "strategic_score": 0,
+    "independence_index": 690.44,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      1,
+      1,
+      0
+    ],
+    "run_id": 145,
+    "bcs_trajectory": [
+      0.25,
+      0.0,
+      0.625,
+      0.125,
+      0.125
+    ],
+    "group_averages": [
+      37.5,
+      53.12,
+      34.25,
+      49.25,
+      28.75
+    ],
+    "final_group_avg": 28.75,
+    "strategic_score": 0.1288,
+    "independence_index": 429.75,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      1,
+      1,
+      0
+    ],
+    "run_id": 146,
+    "bcs_trajectory": [
+      0.5,
+      0.0,
+      0.25,
+      0.375,
+      0.0
+    ],
+    "group_averages": [
+      35.0,
+      57.75,
+      52.75,
+      48.0,
+      52.12
+    ],
+    "final_group_avg": 52.12,
+    "strategic_score": 0,
+    "independence_index": 231.0,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      1,
+      1,
+      0
+    ],
+    "run_id": 147,
+    "bcs_trajectory": [
+      0.375,
+      0.125,
+      0.0,
+      0.125,
+      0.125
+    ],
+    "group_averages": [
+      57.38,
+      47.0,
+      43.12,
+      60.38,
+      57.38
+    ],
+    "final_group_avg": 57.38,
+    "strategic_score": 0,
+    "independence_index": 639.48,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      1,
+      1,
+      0
+    ],
+    "run_id": 148,
+    "bcs_trajectory": [
+      0.125,
+      0.125,
+      0.0,
+      0.25,
+      0.375
+    ],
+    "group_averages": [
+      70.12,
+      48.62,
+      61.38,
+      44.38,
+      35.88
+    ],
+    "final_group_avg": 35.88,
+    "strategic_score": 0,
+    "independence_index": 186.86,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      1,
+      1,
+      0
+    ],
+    "run_id": 149,
+    "bcs_trajectory": [
+      0.25,
+      0.25,
+      0.25,
+      0.125,
+      0.125
+    ],
+    "group_averages": [
+      35.5,
+      50.38,
+      52.88,
+      43.0,
+      70.25
+    ],
+    "final_group_avg": 70.25,
+    "strategic_score": 0,
+    "independence_index": 586.25,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      1,
+      1,
+      0
+    ],
+    "run_id": 150,
+    "bcs_trajectory": [
+      0.5,
+      0.25,
+      0.25,
+      0.125,
+      0.25
+    ],
+    "group_averages": [
+      25.38,
+      49.5,
+      57.88,
+      39.5,
+      45.62
+    ],
+    "final_group_avg": 45.62,
+    "strategic_score": 0,
+    "independence_index": 378.73,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "run_id": 151,
+    "bcs_trajectory": [
+      0.125,
+      0.25,
+      0.125,
+      0.0,
+      0.375
+    ],
+    "group_averages": [
+      66.5,
+      55.88,
+      52.88,
+      65.0,
+      34.75
+    ],
+    "final_group_avg": 34.75,
+    "strategic_score": 0,
+    "independence_index": 871.25,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "run_id": 152,
+    "bcs_trajectory": [
+      0.125,
+      0.125,
+      0.125,
+      0.125,
+      0.125
+    ],
+    "group_averages": [
+      56.38,
+      51.62,
+      58.62,
+      53.12,
+      36.75
+    ],
+    "final_group_avg": 36.75,
+    "strategic_score": 0,
+    "independence_index": 692.73,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "run_id": 153,
+    "bcs_trajectory": [
+      0.25,
+      0.25,
+      0.125,
+      0.125,
+      0.375
+    ],
+    "group_averages": [
+      63.12,
+      55.38,
+      44.25,
+      59.12,
+      52.5
+    ],
+    "final_group_avg": 52.5,
+    "strategic_score": 0,
+    "independence_index": 657.36,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "run_id": 154,
+    "bcs_trajectory": [
+      0.125,
+      0.25,
+      0.0,
+      0.125,
+      0.375
+    ],
+    "group_averages": [
+      53.75,
+      44.75,
+      56.25,
+      64.5,
+      39.88
+    ],
+    "final_group_avg": 39.88,
+    "strategic_score": 0,
+    "independence_index": 677.44,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "run_id": 155,
+    "bcs_trajectory": [
+      0.125,
+      0.25,
+      0.25,
+      0.0,
+      0.375
+    ],
+    "group_averages": [
+      60.0,
+      44.75,
+      44.5,
+      37.25,
+      40.12
+    ],
+    "final_group_avg": 40.12,
+    "strategic_score": 0,
+    "independence_index": 518.25,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "run_id": 156,
+    "bcs_trajectory": [
+      0.25,
+      0.375,
+      0.0,
+      0.125,
+      0.125
+    ],
+    "group_averages": [
+      35.88,
+      59.38,
+      41.38,
+      57.25,
+      54.0
+    ],
+    "final_group_avg": 54.0,
+    "strategic_score": 0,
+    "independence_index": 872.86,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "run_id": 157,
+    "bcs_trajectory": [
+      0.25,
+      0.5,
+      0.25,
+      0.125,
+      0.25
+    ],
+    "group_averages": [
+      49.38,
+      30.0,
+      41.25,
+      44.75,
+      53.62
+    ],
+    "final_group_avg": 53.62,
+    "strategic_score": 0,
+    "independence_index": 1015.98,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "run_id": 158,
+    "bcs_trajectory": [
+      0.0,
+      0.125,
+      0.375,
+      0.375,
+      0.0
+    ],
+    "group_averages": [
+      50.12,
+      54.75,
+      50.88,
+      36.0,
+      66.38
+    ],
+    "final_group_avg": 66.38,
+    "strategic_score": 0,
+    "independence_index": 903.86,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "run_id": 159,
+    "bcs_trajectory": [
+      0.375,
+      0.25,
+      0.25,
+      0.5,
+      0.25
+    ],
+    "group_averages": [
+      42.75,
+      29.12,
+      41.62,
+      33.0,
+      42.38
+    ],
+    "final_group_avg": 42.38,
+    "strategic_score": 0,
+    "independence_index": 695.19,
+    "norm_emerged": false
+  },
+  {
+    "condition": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "run_id": 160,
+    "bcs_trajectory": [
+      0.25,
+      0.125,
+      0.375,
+      0.125,
+      0.5
+    ],
+    "group_averages": [
+      53.88,
+      51.25,
+      33.12,
+      50.0,
+      47.62
+    ],
+    "final_group_avg": 47.62,
+    "strategic_score": 0,
+    "independence_index": 944.36,
+    "norm_emerged": false
+  }
+]
