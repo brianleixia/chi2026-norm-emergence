@@ -1,79 +1,59 @@
 {
   "iteration": 86,
-  "last_update": "2026-04-15T00:07:40.484876",
+  "timestamp": "2026-04-15T00:07:40.484675",
   "current_phase": "writing_draft",
-  "sections_complete": [],
-  "sections_incomplete": [
-    "abstract",
-    "intro",
-    "relatedwork",
-    "methods",
-    "results",
-    "discussion",
-    "limitations",
-    "conclusion"
-  ],
-  "chi_score": 0,
-  "chi_threshold": 7,
-  "notes": [],
-  "current_task": "polish",
-  "current_task_desc": "\u8fdb\u5165\u7cbe\u4fee\u9636\u6bb5\uff1a\u4f18\u5316\u8bba\u8bc1\u903b\u8f91\u548c CHI \u98ce\u683c",
-  "section_status": {
+  "task": "polish",
+  "task_desc": "\u8fdb\u5165\u7cbe\u4fee\u9636\u6bb5\uff1a\u4f18\u5316\u8bba\u8bc1\u903b\u8f91\u548c CHI \u98ce\u683c",
+  "sections": {
     "abstract": {
-      "exists": true,
       "size": 1720,
       "has_content": true,
       "has_citations": true,
       "complete": true
     },
     "intro": {
-      "exists": true,
       "size": 7024,
       "has_content": true,
       "has_citations": true,
       "complete": true
     },
     "relatedwork": {
-      "exists": true,
       "size": 5813,
       "has_content": true,
       "has_citations": true,
       "complete": true
     },
     "methods": {
-      "exists": true,
       "size": 5972,
       "has_content": true,
       "has_citations": true,
       "complete": true
     },
     "results": {
-      "exists": true,
       "size": 6381,
       "has_content": true,
       "has_citations": true,
       "complete": true
     },
     "discussion": {
-      "exists": true,
       "size": 5103,
       "has_content": true,
       "has_citations": true,
       "complete": true
     },
     "limitations": {
-      "exists": true,
       "size": 2732,
       "has_content": true,
       "has_citations": true,
       "complete": true
     },
     "conclusion": {
-      "exists": true,
       "size": 2216,
       "has_content": true,
       "has_citations": true,
       "complete": true
     }
-  }
+  },
+  "chi_score": 0,
+  "target": 7
 }
