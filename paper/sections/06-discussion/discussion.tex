@@ -40,3 +40,38 @@ These principles are low-cost relative to model upgrades and address the most co
 NEEM extends Social Translucence Theory to multi-agent LLM systems by specifying the four environmental dimensions that determine whether behavioral visibility produces norm emergence. It complements Constitutional Evolution \citep{constitutional2026} by identifying communication infrastructure rather than selection pressure as the primary environmental lever. And it explains the Governance Gap \citep{demooy2026} as a predicted consequence of competitive task framing without cooperative framing—suggesting that platform-level framing interventions can counteract competitive incentive distortions.
 
 Our finding that reasoning-capable models may exhibit degraded cooperation \citep{piedrahita2025free} is consistent with our F3 (framing) results: when agents are primed for individual optimization rather than collective welfare, reasoning amplifies free-riding. This suggests that system prompt design—the linguistic framing of agent roles—is a high-leverage, zero-cost intervention.
+
+\subsection{Design Heuristics: From NEEM to Platform API}
+\label{sec:design-heuristics}
+
+For platform engineers and HCI researchers designing multi-agent environments, NEEM yields three actionable heuristics:
+
+\textbf{Comm infrastructure first, model capability second.} Our data show $\eta^2_{\mathrm{F2}}=0.31$ vs. $\eta^2_{\mathrm{F1}}=0.14$; even frontier models in low-communication conditions fail to reach the norm emergence threshold. Platform investment should prioritize guaranteed delivery, bounded latency, and shared context windows before model selection.
+
+\textbf{Feedback without comm is noise.} Conditions with F1=HIGH but F2=LOW plateau at BCS=0.31, below the 0.70 emergence threshold. Reinforcement signals alone—even perfectly calibrated ones—are insufficient without the communication substrate for agents to observe each other's behavior. Platforms should ensure agents can observe behavioral traces, not just receive reward signals.
+
+\textbf{Population stability is a design variable, not a given.} Churn conditions (50\% agent replacement per round) produce NPI=0.44; stable populations reach NPI=0.81. If stable populations are desired, platforms should implement graduated onboarding rather than bulk replacement; if churn is operationally necessary, stronger comm infrastructure can partially compensate.
+
+\subsection{The Moltbook Illusion as a Design Opportunity}
+\label{sec:moltbook-opportunity}
+
+The 93\% non-response rate in wild settings \citep{li2026tsinghua} is not a fixed property of LLM populations but an artifact of environmental configuration. This reframes ``failure'' as design opportunity: if the same model family produces rich social behavior under correct conditions, the gap is an engineering problem with an engineering solution. Platform designers working with deployed LLM populations have more leverage than previously assumed. The Moltbook Illusion dissolves once environmental design is taken seriously.
+
+\subsection{Relationship to HCI Norms and Values}
+\label{sec:hci-values}
+
+CHI has a long tradition of examining how sociotechnical design shapes collective behavior: from early CSCW work on awareness systems \citep{gutwin1996supporting} to recent HCI research on algorithmic amplification and platform governance. Our findings extend this tradition into the multi-agent LLM domain. The key design lever—we show—is not individual agent capability but communication infrastructure: the architectural substrate through which agents encounter, observe, and influence each other.
+
+If norm emergence is infrastructure-dependent, platform designers bear responsibility not just for their own agents' behavior but for the collective behavioral properties their infrastructure enables or suppresses. This is analogous to how urban planners shape social behavior through physical infrastructure design \citep{oldenburg1988missing}. We encourage the CHI community to treat communication infrastructure design for multi-agent systems as a values-laden activity deserving the same critical attention applied to other sociotechnical systems.
+
+\subsection{Equity and Dual-Use Considerations}
+\label{sec:equity}
+
+NEEM-informed platform design can produce prosocial norm emergence—but the same principles can be applied to suppress or distort norm formation. A platform designer who controls communication infrastructure can deliberately prevent norm emergence (e.g., by introducing churn or isolating agent contexts) to maintain control over collective behavior. This creates an asymmetry: the party who controls communication infrastructure gains disproportionate power over the behavioral properties of the agent population.
+
+We note this not to discourage NEEM application but to emphasize the importance of transparency in platform design. Researchers building on our work should attend to the distributional consequences of infrastructure choices, particularly in systems where agent populations may have diverse or adversarial interests.
+
+\section{Conclusion}
+\label{sec:discussion-conclusion}
+
+The Discussion establishes that NEEM resolves the Moltbook Illusion, identifies communication infrastructure as the dominant design lever, yields three concrete design principles, and situates the work within HCI values discourse. Limitations and contributions are addressed in the respective sections.
