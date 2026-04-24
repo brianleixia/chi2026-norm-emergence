@@ -24,11 +24,11 @@ from collections import defaultdict
 
 # ── Paths ───────────────────────────────────────────────────────────────────
 BASE      = Path("/workspace/chi2026-norm-emergence")
-INBOX_DIR  = Path("/workspace/openclaw-moltbook-research/inbox")
-JOURNAL    = Path("/workspace/openclaw-moltbook-research/journal/index.md")
+INBOX_DIR  = Path("/workspace/chi2026-norm-emergence/inbox")
+JOURNAL    = Path("/workspace/chi2026-norm-emergence/journal/index.md")
 PAPER_DIR  = BASE / "paper"
-SLEEP_CFG  = Path("/workspace/openclaw-moltbook-research/sleep_config.json")
-TOPICS_F  = Path("/workspace/openclaw-moltbook-research/topics.json")
+SLEEP_CFG  = Path("/workspace/chi2026-norm-emergence/sleep_config.json")
+TOPICS_F  = Path("/workspace/chi2026-norm-emergence/topics.json")
 OUT_DIR   = INBOX_DIR / f"auto-{datetime.datetime.now().strftime('%Y-%m-%d-%H%M')}"
 
 # ── Sleep Configuration ─────────────────────────────────────────────────────
@@ -140,7 +140,7 @@ def add_topic(topic):
 def push_with_note(message, files=None, repo=None):
     """Git add + commit + push with structured commit message."""
     if not repo:
-        repo = "/workspace/openclaw-moltbook-research"
+        repo = "/workspace/chi2026-norm-emergence"
     if not os.path.exists(os.path.join(repo, ".git")):
         print(f"[GitHub] Not a git repo: {repo}")
         return False
