@@ -14,3 +14,4 @@
 - **2026-04-27**: 5 topics reviewed — 
 - **2026-04-27**: 5 topics reviewed — 
 - **2026-04-27**: 5 topics reviewed — 
+- **2026-04-28**: 5 topics reviewed — LLM multi-agent social norms emergence, human-AI collective behavior social influence
