@@ -1,0 +1,14 @@
+# Literature Review — 2026-05-04
+**Query:** multi-agent LLM coordination failure security
+**Papers reviewed:** 1
+
+## 1. SPEAR: An Engineering Case Study of Multi-Agent Coordination for Smart Contract Auditing
+- Authors: Indraveni Chebolu, Arnab Mallick, Harmesh Rana | Year: 2026 | Venue: arXiv
+- Novelty: ⭐⭐
+- Claims:
+  - [Could not extract]
+
+## Synthesis
+## Synthesis: SPEAR Paper Analysis
+
+**What they agree on:** SPEAR establishes a clear consensus that multi-agent
