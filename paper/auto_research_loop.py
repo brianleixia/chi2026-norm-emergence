@@ -77,7 +77,7 @@ def parse_cron_next(cron_expr):
             return candidate
         except (ValueError, TypeError):
             continue
-    return None + datetime.timedelta(days=1)
+    return None
 
 def time_until_next_wake(cron_expr):
     """Return human-readable time until next wake."""
