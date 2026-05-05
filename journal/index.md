@@ -43,3 +43,4 @@
 - **2026-05-04**: 5 topics reviewed — 
 - **2026-05-04**: 5 topics reviewed — human-AI collective behavior social influence
 - **2026-05-05**: 5 topics reviewed — LLM theory of mind strategic reasoning Keynesian Beauty Contest, human-AI collective behavior social influence
+- **2026-05-05**: 5 topics reviewed — 
