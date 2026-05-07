@@ -362,15 +362,17 @@ def full_research_update():
 
 # ── Search APIs ─────────────────────────────────────────────────────────────
 def openalex_search(query, limit=8):
+    import urllib.request, ssl
+    ctx = ssl.create_default_context(); ctx.check_hostname=False; ctx.verify_mode=ssl.CERT_NONE
     url = (f"https://api.openalex.org/works?search={urllib.parse.quote(query)}"
            f"&filter=is_oa:true&sort=relevance_score&per_page={limit}"
            f"&select=title,authorships,abstract_inverted_index,publication_year,"
            f"concepts,cited_by_count,primary_location,doi")
     try:
-        import requests
-        r = requests.get(url, timeout=10)
-        r.raise_for_status()
-        data = r.json()
+        req = urllib.request.Request(url, headers={"Accept":"application/json"})
+        r = urllib.request.urlopen(req, context=ctx, timeout=10)
+        import json as _json
+        data = _json.loads(r.read().decode("utf-8"))
         return [_parse_openalex(w) for w in data.get("results",[])]
     except Exception as e:
         print(f"  OpenAlex error: {e}")
