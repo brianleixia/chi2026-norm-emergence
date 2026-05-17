@@ -1,8 +1,13 @@
 {
   "cron": "0 9 * * 1-5",
   "sleep_duration_hours": 8,
-  "active_topics": [],
+  "active_topics": [
+    "norm emergence collective behavior AI agents CHI 2026",
+    "human-AI collaboration social norms organizational",
+    "multi-agent LLM coordination failure emergent norms",
+    "AI governance norms sociotechnical systems"
+  ],
   "last_wake": null,
-  "last_update": "2026-05-16T18:02:51.032502+00:00",
-  "total_runs": 85
+  "last_update": "2026-05-17T00:10:41.941791+00:00",
+  "total_runs": 86
 }
