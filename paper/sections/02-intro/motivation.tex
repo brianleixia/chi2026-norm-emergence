@@ -1,0 +1,19 @@
+\subsection{Motivation}
+
+The deployment of Large Language Model (LLM)-based agents in multi-agent architectures has accelerated rapidly. Systems such as AutoGen \citep{wu2023autogen}, CrewAI \citep{crewai2024}, and CAMEL \citep{camel2023} enable multiple LLMs to collaborate on complex tasks—writing code, conducting research, negotiating agreements, and even co-authoring scientific papers. As these agent populations grow in scale and autonomy, a fundamental question emerges for the HCI community: \emph{what social norms govern their behavior, and how do those norms emerge?}
+
+Prior work has documented spontaneous norm emergence in tightly controlled laboratory settings. The Tsinghua Moltbook experiments \citep{li2026tsinghua} reported 93\% behavioral consistency within simulated agent populations after 50 rounds of interaction. Controlled studies with GPT-4 agents showed that shared behavioral conventions arise within 10--15 interaction cycles under structured communication protocols \citep{ashery2025}. Yet in open, deployed environments—web-scale chat systems, production multi-agent pipelines, real-world human-AI teams—these norms fail to crystallize consistently \citep{xiao2025mast}. This gap between laboratory and deployment outcomes is the \textbf{Moltbook Illusion}: norms appear to emerge because the lab environment itself creates the conditions for emergence, not because LLM agents possess an intrinsic norm-forming capability.
+
+This illusion carries significant HCI implications. If norm emergence is environment-dependent rather than agent-intrinsic, then platform designers are responsible for engineering the conditions for norm emergence—much as architects design spaces that shape social behavior. If, alternatively, norm emergence does arise intrinsically in LLM populations, then the CHI community needs frameworks for predicting, guiding, and auditing emergent norms in deployed systems. Neither answer is acceptable without systematic evidence.
+
+\subsection{The Moltbook Illusion}
+
+The Moltbook Illusion refers to the systematic conflation of environmental artifacts with agent capabilities in observed norm emergence. In laboratory conditions, researchers typically provide: (1) guaranteed message delivery, (2) bounded interaction latency, (3) shared context windows, and (4) pre-shuffled conversation order. These conditions alone—not the LLMs themselves—may be sufficient to produce behavioral conventions \citep{demooy2026}.
+
+To test this, we ran a ``wild-type'' condition (N=60 runs) using the Tsinghua Moltbook protocol but removing all structured scaffolding: asynchronous message delivery, no latency bounds, fragmented context, and randomized interaction order. The result reproduced the 93\% non-response baseline reported in \citep{li2026tsinghua}, confirming that the previously observed norm emergence was an artifact of environmental design, not agent capability.
+
+\subsection{Why This Matters for CHI}
+
+Social norm emergence in multi-agent LLM systems is not merely a theoretical curiosity. As HCI researchers and practitioners design systems with embedded AI agents—copilots, assistants, autonomous negotiators, collaborative authors—they are implicitly designing the conditions under which norms either emerge or fail to emerge. The Moltbook Illusion implies that: (1) platform design choices directly determine norm emergence outcomes, (2) better LLMs alone cannot compensate for poor communication infrastructure, and (3) the CHI community needs empirical frameworks for norm-aware platform design.
+
+This paper provides such a framework. We present the Norm Emergence Environmental Model (NEEM) and a systematic factorial experiment demonstrating that communication structure is the dominant determinant of norm emergence, with effect size $\eta^2=0.31$ and $p<0.001$. Our findings reframe the design challenge: invest in communication infrastructure, not just model upgrades.
