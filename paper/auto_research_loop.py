@@ -365,7 +365,7 @@ def openalex_search(query, limit=8):
     import urllib.request, ssl
     ctx = ssl.create_default_context(); ctx.check_hostname=False; ctx.verify_mode=ssl.CERT_NONE
     url = (f"https://api.openalex.org/works?search={urllib.parse.quote(query)}"
-           f"&filter=is_oa:true&sort=relevance_score&per_page={limit}"
+           f"&filter=is_oa:true&sort=relevance_score:desc&per_page={limit}"
            f"&select=title,authorships,abstract_inverted_index,publication_year,"
            f"concepts,cited_by_count,primary_location,doi")
     try:
