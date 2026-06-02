@@ -147,3 +147,4 @@
 - **2026-06-01**: 4 topics reviewed — human-AI collaboration social norms organizational
 - **2026-06-01**: 4 topics reviewed — human-AI collaboration social norms organizational
 - **2026-06-02**: 4 topics reviewed — human-AI collaboration social norms organizational
+- **2026-06-02**: 4 topics reviewed — norm emergence collective behavior AI agents CHI 2026, human-AI collaboration social norms organizational, multi-agent LLM coordination failure emergent norms, AI governance norms sociotechnical systems
