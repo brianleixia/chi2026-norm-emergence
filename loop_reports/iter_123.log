@@ -1,0 +1,14 @@
+
+auto_research_loop.py v4 — Research Pipeline
+
+Commands:
+  --update           Full morning research update (all topics)
+  --sleep            Enter sleep mode until next cron wake
+  --status           Show sleep schedule and run statistics
+  --literature Q     Run literature review on query Q
+  --review URL       Run three-perspective peer review on paper
+  --cite-check URL   Run citation distortion check on paper
+  --plan             Show today's research plan
+  --topics            List active research topics
+  --add-topic T      Add topic T to tracking list
+
